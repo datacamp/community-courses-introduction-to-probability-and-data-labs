@@ -11,10 +11,11 @@ The keyboard shortcut to generate the pipe operator, %>%, is 'Command + Shift + 
 
 *** =instructions
 
-1.24328
-2.33245
-3.21725
-3.45543
+- 1.24328
+- 2.33245
+- 3.21725
+- 3.45543
+
 *** =hint Make sure you've loaded the dplyr package!
 
 *** =pre_exercise_code
