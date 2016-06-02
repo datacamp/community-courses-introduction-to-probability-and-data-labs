@@ -4,12 +4,30 @@ description : Insert the chapter description here
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
---- type:VideoExercise lang:r xp:50 skills:1 key:458134cbce
-## Analyze movie ratings
+Generating the pipe operator using keyboard shortcuts
 
-*** =video_link
-//player.vimeo.com/video/154783078
+The keyboard shortcut to generate the pipe operator, %>%, is 'Command + Shift + M' on a Mac or 'Control + Shift + M' on a PC. Open my_code.R, replace the blank space in the script with the pipe operator, and execute the code. What is the output?
 
+*** =instructions
+
+1.24328
+2.33245
+3.21725
+3.45543
+*** =hint Make sure you've loaded the dplyr package!
+
+*** =pre_exercise_code
+
+# created ex2_07_my_code.R
+*** =sct
+
+msg1 <- "Awesome!"
+msg2 <- "Try again, replace the blank space with the pipe operator using the keyboard shortcut. Execute the code. What is the output?"
+
+test_mc(3, feedback_msgs = c(msg1, msg2, msg2))
+*** =attachments my_code.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_944/datasets/ex2_07_my_code.R
+
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:3caadee278
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:fe39da3063
 ## A really bad movie
 
