@@ -87,7 +87,7 @@ Open the `R Markdown file` that corresponds to this exercise. The `file` titled 
 
 You can use the RStudio platform just like you would on your home computer. 
 
-# Follow the directions and instructions in the markdown file, but answer the exercise below.
+<strong>Follow the directions and instructions in the markdown file, but answer the exercise below.<strong>
 
 3. Which of the following best describes the number of girls baptised over the years included in this dataset?
 
