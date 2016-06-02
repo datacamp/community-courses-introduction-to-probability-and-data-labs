@@ -5,7 +5,7 @@ attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:01bab0ca72
 
-Generating the pipe operator using keyboard shortcuts
+## Generating the pipe operator using keyboard shortcuts2
 
 The keyboard shortcut to generate the pipe operator, %>%, is 'Command + Shift + M' on a Mac or 'Control + Shift + M' on a PC. Open my_code.R, replace the blank space in the script with the pipe operator, and execute the code. What is the output?
 
@@ -19,7 +19,6 @@ The keyboard shortcut to generate the pipe operator, %>%, is 'Command + Shift + 
 
 *** =pre_exercise_code
 
-# created ex2_07_my_code.R
 *** =sct
 
 msg1 <- "Awesome!"
