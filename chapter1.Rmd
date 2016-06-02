@@ -36,7 +36,7 @@ msg3 <- "Keep trying!"
 msg4 <- "Awesome!"
 msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 
-test_mc(4, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
 lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1.Rmd
@@ -75,7 +75,7 @@ msg3 <- "Keep trying!"
 msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 
-test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
@@ -116,7 +116,7 @@ msg3 <- "Keep trying!"
 msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 
-test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
 lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex3.Rmd
@@ -131,14 +131,14 @@ You can use the RStudio platform just like you would on your home computer.
 
 <strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
-- Which of the following best describes the number of girls baptised over the years included in this dataset?
+- How many variables are included in this data set?
 
 *** =instructions
-- There appears to be no trend in the number of girls baptised from 1629 to 1710.
-- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
-- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
-- The number of girls baptised has decreased over time. 
-- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
+- 2
+- 3
+- 4 
+- 74 
+- 2013
  
 
 *** =hint
@@ -156,11 +156,11 @@ msg3 <- "Keep trying!"
 msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 
-test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
-lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex4.Rmd
+lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex4.Rmd
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
@@ -172,14 +172,11 @@ You can use the RStudio platform just like you would on your home computer.
 
 <strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
-- Which of the following best describes the number of girls baptised over the years included in this dataset?
+- Has the proportion of boys born in the US has decreased over time.
 
 *** =instructions
-- There appears to be no trend in the number of girls baptised from 1629 to 1710.
-- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
-- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
-- The number of girls baptised has decreased over time. 
-- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
+- TRUE
+- FALSE
  
 
 *** =hint
@@ -193,15 +190,12 @@ Use similar code as the most recent code block above
 ```{r,eval=FALSE}
 msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 msg2 <- "Awesome!"
-msg3 <- "Keep trying!"
-msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 
-test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+test_mc(2, feedback_msgs = c(msg1, msg2))
 ```
 
 *** =attachments
-lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex5.Rmd
+lab1_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex5.Rmd
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8aee5ae535
@@ -213,14 +207,12 @@ You can use the RStudio platform just like you would on your home computer.
 
 <strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
-- Which of the following best describes the number of girls baptised over the years included in this dataset?
+- Which of the following statements is true?
 
 *** =instructions
-- There appears to be no trend in the number of girls baptised from 1629 to 1710.
-- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
-- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
-- The number of girls baptised has decreased over time. 
-- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
+- Every year there are more girls born than boys.
+- Every year there are more boys born than girls.
+- Half of the years there are more boys born, and the other half more girls born. 
  
 
 *** =hint
@@ -235,14 +227,12 @@ Use similar code as the most recent code block above
 msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 msg2 <- "Awesome!"
 msg3 <- "Keep trying!"
-msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 
-test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+test_mc(2, feedback_msgs = c(msg1, msg2, msg3,))
 ```
 
 *** =attachments
-lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex6.Rmd
+lab1_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex6.Rmd
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:63abfd6950
@@ -254,15 +244,14 @@ You can use the RStudio platform just like you would on your home computer.
 
 <strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
-- Which of the following best describes the number of girls baptised over the years included in this dataset?
+- Which of the following best describes the trend? 
 
 *** =instructions
-- There appears to be no trend in the number of girls baptised from 1629 to 1710.
-- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
-- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
-- The number of girls baptised has decreased over time. 
-- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
- 
+- There appears to be no trend in the boy-to-girl ratio from 1940 to 2013.
+- There is initially an increase in boy-to-girl ratio, which peaks around 1960. After 1960 there is a decrease in the boy-to-girl ratio, but the number begins to increase in the mid 1970s.
+- There is initially a decrease in the boy-to-girl ratio, and then an increase between 1960 and 1970, followed by a decrease.
+- The boy-to-girl ratio has increased over time.
+- There is an initial decrease in the boy-to-girl ratio born but this number appears to level around 1960 and remain constant since then. 
 
 *** =hint
 Use similar code as the most recent code block above
@@ -283,7 +272,7 @@ test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
 ```
 
 *** =attachments
-lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex7.Rmd
+lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex7.Rmd
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
@@ -295,18 +284,21 @@ You can use the RStudio platform just like you would on your home computer.
 
 <strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
-- Which of the following best describes the number of girls baptised over the years included in this dataset?
+- In what year did we see the most total number of births in the U.S.?
 
 *** =instructions
-- There appears to be no trend in the number of girls baptised from 1629 to 1710.
-- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
-- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
-- The number of girls baptised has decreased over time. 
-- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
+- 1940
+- 1957   
+- 1961        
+- 1991
+- 2007 
  
 
 *** =hint
-Use similar code as the most recent code block above
+Sort your dataset in descending order based on the `total` column. You can do this 
+interactively in the data viewer by clicking on the arrows next to the variable 
+names. Or to arrange the data in a descenting order with new function: `desc` (for 
+descending order).
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -320,9 +312,9 @@ msg3 <- "Keep trying!"
 msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
 
-test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
-lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex8.Rmd
+lab1_ex8.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex8.Rmd
 
