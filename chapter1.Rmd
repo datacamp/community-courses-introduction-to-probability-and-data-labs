@@ -83,11 +83,11 @@ lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
-Open the `R Markdown file` that corresponds to this exercise. 
+Open the `R Markdown file` that corresponds to this exercise. The `file` titled `lab1_ex3.Rmd` can be found in the lower right quadrant. 
 
-The `file` can be found under `files` tab in the lower right quadrant. The `file` is titled `lab1_ex3.Rmd`. Just click on it and it will open up in the script editor. 
+You can use the RStudio platform just like you would on your home computer. 
 
-You can use the RStudio platform just like you would on you some computer. Follow the directions and instructions, which, are in the `file` you just opened, however, you can answer the exercise below.
+# Follow the directions and instructions in the markdown file, but answer the exercise below.
 
 3. Which of the following best describes the number of girls baptised over the years included in this dataset?
 
