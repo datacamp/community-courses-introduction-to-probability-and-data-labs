@@ -1,0 +1,22 @@
+---
+title: "Introduction to R and RStudio"
+output: statsr:::statswithr_lab
+---
+
+6. Create a new variable called `more_boys` which contains the value of either `TRUE` 
+if that year had more boys than girls, or `FALSE` if that year did not. Based on this 
+variable which of the following statements is true? 
+
+The code that created the `more_boys` column for the `arbuthnot` dataset used the following functions and operators: `%>%`, `mutate()`, `>`.
+
+<ol>
+<li> Every year there are more girls born than boys. </li>
+<li> Every year there are more boys born than girls. </li>
+<li> Half of the years there are more boys born, and the other half more girls born. </li>
+</ol>
+
+```{r more-boys-per-year}
+# type your code for Question 6 here, and Knit
+
+```
+
