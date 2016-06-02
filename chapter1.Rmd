@@ -84,7 +84,7 @@ lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
 <strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
-The `file` titled `lab1_ex3.Rmd` can be found in the lower right quadrant. 
+<p>The `file` titled `lab1_ex3.Rmd` can be found in the lower right quadrant.</p> 
 
 You can use the RStudio platform just like you would on your home computer. 
 
