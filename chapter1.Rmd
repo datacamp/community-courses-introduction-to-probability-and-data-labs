@@ -42,7 +42,7 @@ test_mc(4, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
 lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1.Rmd
 
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
 Open the `R Markdown file` that corresponds to this exercise. 
 
@@ -81,7 +81,7 @@ test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
 lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex2.Rmd
 
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
 Open the `R Markdown file` that corresponds to this exercise. 
 
