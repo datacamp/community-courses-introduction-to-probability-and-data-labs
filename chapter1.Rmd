@@ -3,32 +3,32 @@ title       : Insert the chapter title here
 description : Insert the chapter description here
 attachments :
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:01bab0ca72
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1
+## Generating the pipe operator using keyboard shortcuts
 
-## Generating the pipe operator using keyboard shortcuts2
-
-The keyboard shortcut to generate the pipe operator, %>%, is 'Command + Shift + M' on a Mac or 'Control + Shift + M' on a PC. Open my_code.R, replace the blank space in the script with the pipe operator, and execute the code. What is the output?
+The keyboard shortcut to generate the pipe operator, `%>%`, is 'Command + Shift + M' on a Mac or 'Control + Shift + M' on a PC. Open `my_code.R`, replace the blank space in the script with the pipe operator, and execute the code. What is the output? 
 
 *** =instructions
-
 - 1.24328
 - 2.33245
 - 3.21725
 - 3.45543
 
-*** =hint Make sure you've loaded the dplyr package!
+*** =hint
+Make sure you've loaded the `dplyr` package!
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
-
+# created ex2_07_my_code.R
 ```
+
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Awesome!"
 msg2 <- "Try again, replace the blank space with the pipe operator using the keyboard shortcut. Execute the code. What is the output?"
 
-test_mc(3, feedback_msgs = c(msg2, msg2, msg1, msg2))
+test_mc(3, feedback_msgs = c(msg1, msg2, msg2))
 ```
 
 *** =attachments
-Lab2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/Lab2.Rmd
+my_code.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_944/datasets/ex2_07_my_code.R
