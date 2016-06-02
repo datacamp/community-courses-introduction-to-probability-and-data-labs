@@ -26,4 +26,4 @@ msg2 <- "Try again, replace the blank space with the pipe operator using the key
 
 test_mc(3, feedback_msgs = c(msg2, msg2, msg1, msg2))
 
-*** =attachments my_code.R: http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/Lab2.Rmd
+*** =attachments Lab2.Rmd: http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/Lab2.Rmd
