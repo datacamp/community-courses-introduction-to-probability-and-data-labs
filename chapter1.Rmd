@@ -21,7 +21,7 @@ You can use the RStudio platform just like you would on your home computer.
 - 82
 - 1710
 *** =hint
-Use similar code as the most recent code block above
+The `dim()` funciton shows the number of rows and columns in a data set.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -30,11 +30,11 @@ Use similar code as the most recent code block above
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg2 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg3 <- "Keep trying!"
+msg1 <- "Try again, rerun the `dim()` function on the `arbuthnot` data."
+msg2 <- "Nope, what was the result of the `dim()` function."
+msg3 <- "Keep trying! Rerun the `dim()` function on the `arbuthnot` data."
 msg4 <- "Awesome!"
-msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg5 <- "Not quite, rerun the `dim()` function on the `arbuthnot` data."
 
 test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
@@ -61,7 +61,7 @@ You can use the RStudio platform just like you would on your home computer.
 - `$girls` 
 
 *** =hint
-Use similar code as the most recent code block above
+The `$` operator allows you to call a specific column wihtin a dataset.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -69,11 +69,11 @@ Use similar code as the most recent code block above
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg1 <- "Not quite."
 msg2 <- "Awesome!"
 msg3 <- "Keep trying!"
-msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg4 <- "Nope!"
+msg5 <- "Try again!"
 
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
@@ -102,7 +102,7 @@ You can use the RStudio platform just like you would on your home computer.
  
 
 *** =hint
-Use similar code as the most recent code block above
+NEED HINT
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -110,11 +110,11 @@ Use similar code as the most recent code block above
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg1 <- "Try again."
 msg2 <- "Awesome!"
 msg3 <- "Keep trying!"
-msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg4 <- "Try again."
+msg5 <- "Try again."
 
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
@@ -142,7 +142,7 @@ You can use the RStudio platform just like you would on your home computer.
  
 
 *** =hint
-Use similar code as the most recent code block above
+The `dim()` function gives you the number of rows and columns in a data set.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -150,13 +150,13 @@ Use similar code as the most recent code block above
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg2 <- "Awesome!"
+msg1 <- "Try again."
+msg2 <- "Try again."
 msg3 <- "Keep trying!"
-msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg4 <- "Awesome!"
+msg5 <- "Try again."
 
-test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
@@ -180,7 +180,7 @@ You can use the RStudio platform just like you would on your home computer.
  
 
 *** =hint
-Use similar code as the most recent code block above
+Use the `range` function and `present$year` as its argument.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -188,10 +188,10 @@ Use similar code as the most recent code block above
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg2 <- "Awesome!"
+msg1 <- "Awesome!"
+msg2 <- "Try again."
 
-test_mc(2, feedback_msgs = c(msg1, msg2))
+test_mc(1, feedback_msgs = c(msg1, msg2))
 ```
 
 *** =attachments
@@ -224,7 +224,7 @@ Use similar code as the most recent code block above
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg1 <- "Try again."
 msg2 <- "Awesome!"
 msg3 <- "Keep trying!"
 
@@ -262,13 +262,13 @@ Use similar code as the most recent code block above
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg2 <- "Awesome!"
-msg3 <- "Keep trying!"
-msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg1 <- "Try again."
+msg2 <- "Keep trying!"
+msg3 <- "Awesome!"
+msg4 <- "Try again."
+msg5 <- "Try again."
 
-test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+test_mc(3, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
 ```
 
 *** =attachments
@@ -306,13 +306,13 @@ descending order).
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg2 <- "Awesome!"
+msg1 <- "Try again."
+msg2 <- "Try again."
 msg3 <- "Keep trying!"
-msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
-msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg4 <- "Try again."
+msg5 <- "Awesome!"
 
-test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
