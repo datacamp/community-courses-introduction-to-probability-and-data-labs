@@ -228,7 +228,7 @@ msg1 <- "Try again."
 msg2 <- "Awesome!"
 msg3 <- "Keep trying!"
 
-test_mc(2, feedback_msgs = c(msg1, msg2, msg3,))
+test_mc(2, feedback_msgs = c(msg1, msg2, msg3))
 ```
 
 *** =attachments
@@ -268,7 +268,7 @@ msg3 <- "Awesome!"
 msg4 <- "Try again."
 msg5 <- "Try again."
 
-test_mc(3, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
