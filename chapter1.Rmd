@@ -1,4 +1,4 @@
----
+
 title       : Exercise 1
 description : Insert the chapter description here
 attachments :
