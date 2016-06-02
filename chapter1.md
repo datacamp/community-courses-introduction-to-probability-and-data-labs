@@ -3,7 +3,7 @@ title       : Insert the chapter title here
 description : Insert the chapter description here
 attachments :
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:01bab0ca72
 
 Generating the pipe operator using keyboard shortcuts
 
