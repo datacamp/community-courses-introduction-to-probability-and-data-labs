@@ -88,7 +88,7 @@ lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the directions and instructions in the markdown file, but answer the exercise below.<strong>
+<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
 - Which of the following best describes the number of girls baptised over the years included in this dataset?
 
