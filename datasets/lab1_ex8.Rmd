@@ -1,0 +1,52 @@
+---
+title: "Introduction to R and RStudio"
+output: statsr:::statswithr_lab
+---
+
+<div id="exercise">
+8. In what year did we see the most total number of births in the U.S.? *Hint:* Sort 
+your dataset in descending order based on the `total` column. You can do this 
+interactively in the data viewer by clicking on the arrows next to the variable 
+names. Or to arrange the data in a descenting order with new function: `desc` (for 
+descending order).
+<ol>
+<li> 1940 </li>
+<li> 1957 </li>
+<li> 1961 </li>
+<li> 1991 </li>
+<li> 2007 </li>
+</ol>
+
+```{r most-total-births}
+# type your code for Question 8 here
+# sample code is provided below, edit as necessary, uncomment, and then Knit
+#present %>%
+#  mutate(total = ?) %>%
+#  arrange(desc(total))
+```
+
+## Resources for learning R and working in RStudio
+
+That was a short introduction to R and RStudio, but we will provide you with more
+functions and a more complete sense of the language as the course progresses. You 
+might find the following tips and resources helpful.
+
+- In this course we will be using the `dplyr` (for data wrangling) and `ggplot2` (for 
+data visualization) extensively. If you are googling for R code, make sure
+to also include these package names in your search query. For example, instead
+of googling "scatterplot in R", google "scatterplot in R with ggplot2".
+
+- The following cheathseets may come in handy throughout the course. Note that some 
+of the code on these cheatsheets may be too advanced for this course, however 
+majority of it will become useful as you progress through the course material.
+    - [Data wrangling cheatsheet](http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+    - [Data visualization cheatsheet](http://www.rstudio.com/wp-content/uploads/2015/12/ggplot2-cheatsheet-2.0.pdf)
+    - [R Markdown](http://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
+
+- While you will get plenty of exercise working with these packages in the labs of 
+this course, if you would like further opportunities to practice we recommend 
+checking out the relevant courses at [DataCamp](https://www.datacamp.com/courses).
+
+<div id="license">
+This is a derivative of an [OpenIntro](https://www.openintro.org/stat/labs.php) lab, and is released under a [Attribution-NonCommercial-ShareAlike 3.0 United States](https://creativecommons.org/licenses/by-nc-sa/3.0/us/) license.
+</div>
