@@ -2,9 +2,8 @@
 title       : Insert the chapter title here
 description : Insert the chapter description here
 attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:01bab0ca72
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1
 
 Generating the pipe operator using keyboard shortcuts
 
