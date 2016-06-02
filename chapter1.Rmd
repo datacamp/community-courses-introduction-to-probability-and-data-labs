@@ -122,7 +122,7 @@ test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
 lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex3.Rmd
 
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
 <strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
 <p>The `file` titled `lab1_ex4.Rmd` can be found in the lower right quadrant.</p> 
@@ -163,7 +163,7 @@ test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
 lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex4.Rmd
 
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
 <strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
 <p>The `file` titled `lab1_ex5.Rmd` can be found in the lower right quadrant.</p> 
@@ -204,7 +204,7 @@ test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
 lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex5.Rmd
 
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
 <strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
 <p>The `file` titled `lab1_ex6.Rmd` can be found in the lower right quadrant.</p> 
@@ -245,7 +245,7 @@ test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
 lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex6.Rmd
 
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
 <strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
 <p>The `file` titled `lab1_ex7.Rmd` can be found in the lower right quadrant.</p> 
@@ -286,7 +286,7 @@ test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
 lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex7.Rmd
 
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
 <strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
 <p>The `file` titled `lab1_ex8.Rmd` can be found in the lower right quadrant.</p> 
