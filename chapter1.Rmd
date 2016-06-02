@@ -5,11 +5,12 @@ attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
-Open the `R Markdown file` that corresponds to this exercise. 
+<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
+<p>The `file` titled `lab1_ex1.Rmd` can be found in the lower right quadrant.</p> 
 
-The `file` can be found under `files` tab in the lower right quadrant. The `file` is titled `lab1_ex1.Rmd`. Just click on it and it will open up in the script editor. 
+You can use the RStudio platform just like you would on your home computer. 
 
-You can use the RStudio platform just like you would on you some computer. Follow the directions and instructions, which, are in the `file` you just opened, however, you can answer the exercise below.
+<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
 1. How many variables are included in this data set? 
 
@@ -37,18 +38,18 @@ msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter
 
 test_mc(4, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
 ```
-
 *** =attachments
 lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1.Rmd
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
-Open the `R Markdown file` that corresponds to this exercise. 
+<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
+<p>The `file` titled `lab1_ex2.Rmd` can be found in the lower right quadrant.</p> 
 
-The `file` can be found under `files` tab in the lower right quadrant. The `file` is titled `lab1_ex2.Rmd`. Just click on it and it will open up in the script editor. 
+You can use the RStudio platform just like you would on your home computer. 
 
-You can use the RStudio platform just like you would on you some computer. Follow the directions and instructions, which, are in the `file` you just opened, however, you can answer the exercise below.
+<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
 2. What command would you use to extract just the counts of girls born? 
 
@@ -117,7 +118,211 @@ msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter
 
 test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
 ```
-
 *** =attachments
 lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex3.Rmd
+
+
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+## Question 4
+<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
+<p>The `file` titled `lab1_ex4.Rmd` can be found in the lower right quadrant.</p> 
+
+You can use the RStudio platform just like you would on your home computer. 
+
+<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+
+- Which of the following best describes the number of girls baptised over the years included in this dataset?
+
+*** =instructions
+- There appears to be no trend in the number of girls baptised from 1629 to 1710.
+- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
+- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
+- The number of girls baptised has decreased over time. 
+- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
+ 
+
+*** =hint
+Use similar code as the most recent code block above
+
+*** =pre_exercise_code
+```{r,eval=FALSE}
+```
+
+*** =sct
+```{r,eval=FALSE}
+msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg2 <- "Awesome!"
+msg3 <- "Keep trying!"
+msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+
+test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+```
+
+*** =attachments
+lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex4.Rmd
+
+
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+## Question 5
+<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
+<p>The `file` titled `lab1_ex5.Rmd` can be found in the lower right quadrant.</p> 
+
+You can use the RStudio platform just like you would on your home computer. 
+
+<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+
+- Which of the following best describes the number of girls baptised over the years included in this dataset?
+
+*** =instructions
+- There appears to be no trend in the number of girls baptised from 1629 to 1710.
+- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
+- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
+- The number of girls baptised has decreased over time. 
+- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
+ 
+
+*** =hint
+Use similar code as the most recent code block above
+
+*** =pre_exercise_code
+```{r,eval=FALSE}
+```
+
+*** =sct
+```{r,eval=FALSE}
+msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg2 <- "Awesome!"
+msg3 <- "Keep trying!"
+msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+
+test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+```
+
+*** =attachments
+lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex5.Rmd
+
+
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+## Question 6
+<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
+<p>The `file` titled `lab1_ex6.Rmd` can be found in the lower right quadrant.</p> 
+
+You can use the RStudio platform just like you would on your home computer. 
+
+<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+
+- Which of the following best describes the number of girls baptised over the years included in this dataset?
+
+*** =instructions
+- There appears to be no trend in the number of girls baptised from 1629 to 1710.
+- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
+- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
+- The number of girls baptised has decreased over time. 
+- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
+ 
+
+*** =hint
+Use similar code as the most recent code block above
+
+*** =pre_exercise_code
+```{r,eval=FALSE}
+```
+
+*** =sct
+```{r,eval=FALSE}
+msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg2 <- "Awesome!"
+msg3 <- "Keep trying!"
+msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+
+test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+```
+
+*** =attachments
+lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex6.Rmd
+
+
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+## Question 7
+<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
+<p>The `file` titled `lab1_ex7.Rmd` can be found in the lower right quadrant.</p> 
+
+You can use the RStudio platform just like you would on your home computer. 
+
+<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+
+- Which of the following best describes the number of girls baptised over the years included in this dataset?
+
+*** =instructions
+- There appears to be no trend in the number of girls baptised from 1629 to 1710.
+- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
+- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
+- The number of girls baptised has decreased over time. 
+- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
+ 
+
+*** =hint
+Use similar code as the most recent code block above
+
+*** =pre_exercise_code
+```{r,eval=FALSE}
+```
+
+*** =sct
+```{r,eval=FALSE}
+msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg2 <- "Awesome!"
+msg3 <- "Keep trying!"
+msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+
+test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+```
+
+*** =attachments
+lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex7.Rmd
+
+
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+## Question 8
+<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
+<p>The `file` titled `lab1_ex8.Rmd` can be found in the lower right quadrant.</p> 
+
+You can use the RStudio platform just like you would on your home computer. 
+
+<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+
+- Which of the following best describes the number of girls baptised over the years included in this dataset?
+
+*** =instructions
+- There appears to be no trend in the number of girls baptised from 1629 to 1710.
+- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
+- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
+- The number of girls baptised has decreased over time. 
+- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
+ 
+
+*** =hint
+Use similar code as the most recent code block above
+
+*** =pre_exercise_code
+```{r,eval=FALSE}
+```
+
+*** =sct
+```{r,eval=FALSE}
+msg1 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg2 <- "Awesome!"
+msg3 <- "Keep trying!"
+msg4 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+msg5 <- "Try again, fill in the code block with the answer using dplyr's `filter`."
+
+test_mc(2, feedback_msgs = c(msg2, msg2, msg1, msg2, msg2))
+```
+
+*** =attachments
+lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex8.Rmd
 
