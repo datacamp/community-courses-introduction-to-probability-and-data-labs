@@ -21,12 +21,13 @@ The keyboard shortcut to generate the pipe operator, %>%, is 'Command + Shift + 
 *** =pre_exercise_code
 
 *** =sct
-
+```{r}
 msg1 <- "Awesome!"
 msg2 <- "Try again, replace the blank space with the pipe operator using the keyboard shortcut. Execute the code. What is the output?"
 
-test_mc(3, feedback_msgs = c(msg1, msg2, msg2))
-*** =attachments my_code.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_944/datasets/ex2_07_my_code.R
+test_mc(3, feedback_msgs = c(msg2, msg2, msg1, msg2))
+```
+*** =attachments my_code.R: http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/Lab2.Rmd
 
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:fe39da3063
 ## A really bad movie
