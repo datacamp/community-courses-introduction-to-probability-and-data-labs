@@ -1,0 +1,29 @@
+---
+title       : Insert the chapter title here
+description : Insert the chapter description here
+attachments :
+
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:01bab0ca72
+
+## Generating the pipe operator using keyboard shortcuts2
+
+The keyboard shortcut to generate the pipe operator, %>%, is 'Command + Shift + M' on a Mac or 'Control + Shift + M' on a PC. Open my_code.R, replace the blank space in the script with the pipe operator, and execute the code. What is the output?
+
+*** =instructions
+
+- 1.24328
+- 2.33245
+- 3.21725
+- 3.45543
+
+*** =hint Make sure you've loaded the dplyr package!
+
+*** =pre_exercise_code
+
+*** =sct
+msg1 <- "Awesome!"
+msg2 <- "Try again, replace the blank space with the pipe operator using the keyboard shortcut. Execute the code. What is the output?"
+
+test_mc(3, feedback_msgs = c(msg2, msg2, msg1, msg2))
+
+*** =attachments my_code.R: http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/Lab2.Rmd
