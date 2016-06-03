@@ -5,6 +5,13 @@ output: statsr:::statswithr_lab
 R has some powerful functions for making graphics. We can create a simple plot 
 of the number of girls baptized per year with the command
 
+```{r}
+# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(dplyr)
+library(statsr)
+library(ggplot2)
+```
+
 ```{r plot-girls-vs-year}
 # use the plot created in this block to answer Question 3, and Knit
 ggplot(data = arbuthnot, aes(x = year, y = girls)) +

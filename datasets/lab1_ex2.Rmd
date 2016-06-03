@@ -48,6 +48,13 @@ variable that comes after me".
 
 **See Question 2 to the left.
 
+```{r}
+# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(dplyr)
+library(statsr)
+library(ggplot2)
+```
+
 ```{r extract-counts-of-girls-born}
 # type your code for the Question 2 here, use the output from this line to answer Question 2, and Knit
 

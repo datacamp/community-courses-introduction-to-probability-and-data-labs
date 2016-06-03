@@ -19,6 +19,14 @@ your workspace.
 
 **See Quesiton 4.
 
+```{r}
+# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(dplyr)
+library(statsr)
+library(ggplot2)
+```
+
+
 ```{r variables-in-present}
 # type your code for Question 4 here, use the output from this line to answer Question 4, and Knit
 

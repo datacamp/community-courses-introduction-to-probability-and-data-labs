@@ -16,7 +16,15 @@ Plot these values over time and based on the plot determine if the following sta
 You used the following code to plot the proportion of boy births over time for the `arbuthnot` dataset.
 `ggplot(data = arbuthnot, aes(x = year, y = boys/total)) + geom_line() + geom_point()`
 
-**See Question 5.
+**See Question 5
+
+```{r}
+# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(dplyr)
+library(statsr)
+library(ggplot2)
+```
+
 
 
 ```{r prop-boys-over-time}

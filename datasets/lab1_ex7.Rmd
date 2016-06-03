@@ -14,6 +14,14 @@ You used the following code to plot the proportion of boy births over time for t
 
 **See Quesiton 7.
 
+```{r}
+# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(dplyr)
+library(statsr)
+library(ggplot2)
+```
+
+
 ```{r prop-boy-girl-over-time}
 # type your code for Question 7 here, use the output from this line to answer Question 7, and Knit
 

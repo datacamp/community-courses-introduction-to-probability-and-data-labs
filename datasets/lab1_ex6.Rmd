@@ -9,6 +9,13 @@ variable which of the following statements is true?
 
 The code that created the `more_boys` column for the `arbuthnot` dataset used the following functions and operators: `%>%`, `mutate()`, `>`.
 
+```{r}
+# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(dplyr)
+library(statsr)
+library(ggplot2)
+```
+
 **See Question 6
 
 ```{r more-boys-per-year}
