@@ -1,3 +1,8 @@
+
+title       : Lab 2
+description : Insert the chapter description here
+attachments :
+
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8582d21328
 ## Test auto open
 
