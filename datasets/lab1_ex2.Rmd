@@ -33,6 +33,14 @@ an R Markdown document -- this lab! Going forward type the code for the question
 in the code chunks provided in the R Markdown (Rmd) document for the lab, and **Knit**
 the document to see the results.
 
+
+```{r}
+# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(dplyr)
+library(statsr)
+library(ggplot2)
+```
+
 ### Some Exploration
 
 Let's start to examine the data a little more closely. We can access the data in
@@ -47,13 +55,6 @@ sign basically says "go to the data frame that comes before me, and find the
 variable that comes after me".
 
 **See Question 2 to the left.
-
-```{r}
-# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
-library(dplyr)
-library(statsr)
-library(ggplot2)
-```
 
 ```{r extract-counts-of-girls-born}
 # type your code for the Question 2 here, use the output from this line to answer Question 2, and Knit
