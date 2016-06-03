@@ -280,10 +280,10 @@ Look at the graph, make sure that you have to correct variable in the `x` and `y
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/present_ex6.RData"))
+#library(dplyr)
+#library(ggplot2)
+#library(statsr)
+#load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/present_ex6.RData"))
 ```
 
 *** =sct
@@ -299,7 +299,7 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 
 *** =attachments
 lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex7.Rmd
-
+ex6.Rhistory: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/ex6.Rhistory
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
