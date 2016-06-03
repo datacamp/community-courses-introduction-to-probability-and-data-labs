@@ -5,13 +5,13 @@ attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
-<strong>Follow the directions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions ```Type go() and hit Enter to get started!``` in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-1. How many variables are included in this data set? 
+Q1. How many variables are included in this data set? 
 
 *** =instructions
 - 2 
@@ -47,13 +47,13 @@ lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-2. What command would you use to extract just the counts of girls born? 
+Q2. What command would you use to extract just the counts of girls born? 
 
 *** =instructions
 - `arbuthnot$boys`                                                                                    
