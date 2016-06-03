@@ -1,0 +1,43 @@
+---
+title: "Introduction to R and RStudio"
+output: statsr:::statswithr_lab
+---
+
+## Dataset 2: Present birth records
+
+In the previous few pages, you recreated some of the displays and preliminary 
+analysis of Arbuthnot's baptism data. Next you will do a similar analysis, 
+but for present day birth records in the United States. Load up the 
+present day data with the following command.
+
+```{r load-packages, message = FALSE}
+# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(dplyr)
+library(statsr)
+library(ggplot2)
+```
+
+```{r load-present-data}
+data(present)
+```
+
+The data are stored in a data frame called `present` which should now be loaded in 
+your workspace.
+
+**See Quesiton 4.
+
+```{r variables-in-present}
+# type your code for Question 4 here, use the output from this line to answer Question 4, and Knit
+
+```
+
+<div id="exercise">
+**Exercise**: What years are included in this dataset? **Hint:** Use the `range` 
+function and `present$year` as its argument.
+</div>
+
+```{r years-in-present-data}
+# type your code for Exercise here, and Knit
+
+```
+
