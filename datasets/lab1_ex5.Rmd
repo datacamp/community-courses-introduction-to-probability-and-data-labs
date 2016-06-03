@@ -3,11 +3,9 @@ title: "Introduction to R and RStudio"
 output: statsr:::statswithr_lab
 ---
 
-Calculate the total number of births for each year and store these values in a new 
-variable called `total` in the `present` dataset. 
+Calculate the total number of births for each year and store these values in a new variable called `total` in the `present` dataset. 
 
-In case you forgot, you can add variables to a dataset using the `$` operator. 
-(i.e. `dataset$new_column <- dataset$column1 -+ dataset$column2`)
+In case you forgot, you can add variables to a dataset using the `$` operator. (i.e. `dataset$new_column <- dataset$column1 -+ dataset$column2`)
 
 Then, calculate the proportion of boys born each year and store these values in a new variable called `prop_boys` in the same dataset. 
 

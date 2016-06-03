@@ -6,8 +6,7 @@ output: statsr:::statswithr_lab
 
 7. Calculate the boy-to-girl ratio each year, and store these values in a new variable called `prop_boy_girl` in the `present` dataset. Plot these values over time. Which of the following best describes the trend? 
 
-In case you forgot, you can add variables to a dataset using the `$` operator. 
-(i.e. `dataset$new_column <- dataset$column1 -+ dataset$column2`)
+In case you forgot, you can add variables to a dataset using the `$` operator.  (i.e. `dataset$new_column <- dataset$column1 -+ dataset$column2`)
 
 You used the following code to plot the proportion of boy births over time for the `arbuthnot` dataset.
 `ggplot(data = arbuthnot, aes(x = year, y = boys/total)) + geom_line() + geom_point()`
