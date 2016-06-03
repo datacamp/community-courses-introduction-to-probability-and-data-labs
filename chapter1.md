@@ -5,8 +5,7 @@ attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
-<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
-<p>The `file` titled `lab1_ex1.Rmd` can be found in the lower right quadrant.</p> 
+<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
@@ -48,8 +47,7 @@ lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
-<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
-<p>The `file` titled `lab1_ex2.Rmd` can be found in the lower right quadrant.</p> 
+<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
@@ -94,14 +92,13 @@ lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
-<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
-<p>The `file` titled `lab1_ex3.Rmd` can be found in the lower right quadrant.</p> 
+<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
 <strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
-- Which of the following best describes the number of girls baptised over the years included in this dataset?
+3. Which of the following best describes the number of girls baptised over the years included in this dataset?
 
 *** =instructions
 - There appears to be no trend in the number of girls baptised from 1629 to 1710.
@@ -140,14 +137,13 @@ lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
-<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
-<p>The `file` titled `lab1_ex4.Rmd` can be found in the lower right quadrant.</p> 
+<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
 <strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
-- How many variables are included in this data set?
+4. How many variables are included in this data set?
 
 *** =instructions
 - 2
@@ -186,14 +182,13 @@ lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
-<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
-<p>The `file` titled `lab1_ex5.Rmd` can be found in the lower right quadrant.</p> 
+<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
 <strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
-- Has the proportion of boys born in the US has decreased over time.
+5. Has the proportion of boys born in the US has decreased over time.
 
 *** =instructions
 - TRUE
@@ -226,14 +221,13 @@ lab1_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
-<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
-<p>The `file` titled `lab1_ex6.Rmd` can be found in the lower right quadrant.</p> 
+<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
 <strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
-- Which of the following statements is true?
+6. Which of the following statements is true?
 
 *** =instructions
 - Every year there are more girls born than boys.
@@ -271,14 +265,14 @@ lab1_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
-<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
-<p>The `file` titled `lab1_ex7.Rmd` can be found in the lower right quadrant.</p> 
+<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
 <strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
-- Which of the following best describes the trend? 
+7. Which of the following best describes the trend? 
 
 *** =instructions
 - There appears to be no trend in the boy-to-girl ratio from 1940 to 2013.
@@ -316,14 +310,13 @@ lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
-<strong>Open the `R Markdown file` that corresponds to this exercise.</strong>
-<p>The `file` titled `lab1_ex8.Rmd` can be found in the lower right quadrant.</p> 
+<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
 <strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
 
-- In what year did we see the most total number of births in the U.S.?
+8. In what year did we see the most total number of births in the U.S.?
 
 *** =instructions
 - 1940
