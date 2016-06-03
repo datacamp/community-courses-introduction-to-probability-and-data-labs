@@ -5,7 +5,7 @@ attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
-<strong>Follow the directions (```Type go() and hit Enter to get started!```) in the console to open the R Markdown file.</strong>
+<strong>Follow the directions: </strong>```Type go() and hit Enter to get started!``` <strong>in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
