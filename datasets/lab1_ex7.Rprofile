@@ -1,5 +1,5 @@
 .First <- function() {
-  #message("Type go() and hit Enter to get started!\n")
+  message("")
   
   go <<- function() {
     source(".init.R")
