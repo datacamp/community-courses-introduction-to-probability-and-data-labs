@@ -1,6 +1,6 @@
 
 title       : Lab 1
-description : Insert the chapter description here
+description : Questions for Lab 1
 attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
