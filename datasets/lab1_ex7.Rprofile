@@ -3,7 +3,7 @@
   
   go <<- function() {
     source(".init.R")
-    file.edit(".Rmd")
+    file.edit(lab1_ex7.Rmd")
     }
 eval(go)
 }
