@@ -5,7 +5,7 @@ attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
