@@ -5,6 +5,7 @@ file.edit("lab1_ex7.Rmd")
 library(dplyr)
 library(ggplot2)
 library(statsr)
+library(utils)
 load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/present_ex6.RData"))
 
 # create plot
