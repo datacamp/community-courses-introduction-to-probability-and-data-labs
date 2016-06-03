@@ -1,0 +1,26 @@
+---
+title: "Introduction to R and RStudio"
+output: statsr:::statswithr_lab
+---
+
+Calculate the total number of births for each year and store these values in a new 
+variable called `total` in the `present` dataset. 
+
+In case you forgot, you can add variables to a dataset using the `$` operator. 
+(i.e. `dataset$new_column <- dataset$column1 -+ dataset$column2`)
+
+Then, calculate the proportion of boys born each year and store these values in a new variable called `prop_boys` in the same dataset. 
+
+Plot these values over time and based on the plot determine if the following statement is true or false: The proportion of boys born in the US has decreased over time. 
+
+You used the following code to plot the proportion of boy births over time for the `arbuthnot` dataset.
+`ggplot(data = arbuthnot, aes(x = year, y = boys/total)) + geom_line() + geom_point()`
+
+**See Question 5.
+
+
+```{r prop-boys-over-time}
+# type your code for Question 5 here, use the output from this line to answer Question 5, and Knit
+
+```
+
