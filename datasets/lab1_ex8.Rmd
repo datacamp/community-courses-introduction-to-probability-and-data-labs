@@ -9,6 +9,13 @@ interactively in the data viewer by clicking on the arrows next to the variable
 names. Or to arrange the data in a descenting order with new function: `desc` (for 
 descending order).
 
+```{r load-packages, message = FALSE}
+# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(dplyr)
+library(statsr)
+library(ggplot2)
+```
+
 **See Question 8.
 
 ```{r most-total-births}

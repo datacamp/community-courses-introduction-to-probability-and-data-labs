@@ -10,7 +10,7 @@ analysis of Arbuthnot's baptism data. Next you will do a similar analysis,
 but for present day birth records in the United States. Load up the 
 present day data with the following command.
 
-```{r}
+```{r load-packages, message = FALSE}
 # Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
 library(dplyr)
 library(statsr)

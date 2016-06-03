@@ -33,8 +33,7 @@ an R Markdown document -- this lab! Going forward type the code for the question
 in the code chunks provided in the R Markdown (Rmd) document for the lab, and **Knit**
 the document to see the results.
 
-
-```{r}
+```{r load-packages, message = FALSE}
 # Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
 library(dplyr)
 library(statsr)
