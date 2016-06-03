@@ -5,7 +5,7 @@ attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
-<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
@@ -47,7 +47,7 @@ lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
-<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
@@ -92,7 +92,7 @@ lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
-<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
@@ -137,7 +137,7 @@ lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
-<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
@@ -182,7 +182,7 @@ lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
-<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
@@ -221,7 +221,7 @@ lab1_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
-<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
@@ -265,7 +265,7 @@ lab1_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
-<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
@@ -310,7 +310,7 @@ lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_116
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
-<strong>Follow the insturctions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
