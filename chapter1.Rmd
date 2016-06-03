@@ -25,7 +25,9 @@ The `dim()` funciton shows the number of rows and columns in a data set.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
-# created Lab2.Rmd
+library(dplyr)
+library(ggplot2)
+library(statsr)
 ```
 
 *** =sct
@@ -65,6 +67,10 @@ The `$` operator allows you to call a specific column wihtin a dataset.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
+library(dplyr)
+library(ggplot2)
+library(statsr)
+dim(arbuthnot)
 ```
 
 *** =sct
@@ -102,10 +108,14 @@ You can use the RStudio platform just like you would on your home computer.
  
 
 *** =hint
-NEED HINT
+Look at the graph, make sure that you have to correct variable in the `x` and `y` arguements. If you need assistance with `ggplot()` type `?ggplot`.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
+library(dplyr)
+library(ggplot2)
+library(statsr)
+dim(arbuthnot)
 ```
 
 *** =sct
@@ -146,6 +156,9 @@ The `dim()` function gives you the number of rows and columns in a data set.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
+library(dplyr)
+library(ggplot2)
+library(statsr)
 ```
 
 *** =sct
@@ -177,13 +190,16 @@ You can use the RStudio platform just like you would on your home computer.
 *** =instructions
 - TRUE
 - FALSE
- 
 
 *** =hint
 Use the `range` function and `present$year` as its argument.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
+library(dplyr)
+library(ggplot2)
+library(statsr)
+dim(present)
 ```
 
 *** =sct
@@ -216,10 +232,16 @@ You can use the RStudio platform just like you would on your home computer.
  
 
 *** =hint
-Use similar code as the most recent code block above
+You can easily print the new column using the dataset name + the `$` operator + column name. This was the code from the `arbuthnot` dataset to add a `more_boys` variable ```arbuthnot <- arbuthnot %>% mutate(more_boys = boys > girls)```.
+
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
+library(dplyr)
+library(ggplot2)
+library(statsr)
+load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/present_ex5.RData"))
+ggplot(data = present, aes(x = year, y = boys/total)) + geom_line() + geom_point()
 ```
 
 *** =sct
@@ -254,10 +276,14 @@ You can use the RStudio platform just like you would on your home computer.
 - There is an initial decrease in the boy-to-girl ratio born but this number appears to level around 1960 and remain constant since then. 
 
 *** =hint
-Use similar code as the most recent code block above
+Look at the graph, make sure that you have to correct variable in the `x` and `y` arguements. If you need assistance with `ggplot()` type `?ggplot`.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
+library(dplyr)
+library(ggplot2)
+library(statsr)
+load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/present_ex6.RData"))
 ```
 
 *** =sct
@@ -302,6 +328,11 @@ descending order).
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
+library(dplyr)
+library(ggplot2)
+library(statsr)
+load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/present_ex7.RData"))
+ggplot(data = present, aes(x = year, y = prop_boy_girl)) + geom_line() + geom_point()
 ```
 
 *** =sct
