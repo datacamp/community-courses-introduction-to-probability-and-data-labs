@@ -63,7 +63,7 @@ You can use the RStudio platform just like you would on your home computer.
 - `$girls` 
 
 *** =hint
-The `$` operator allows you to call a specific column wihtin a dataset.
+The `$` operator allows you to call a specific column within a dataset.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -109,7 +109,7 @@ You can use the RStudio platform just like you would on your home computer.
  
 
 *** =hint
-Look at the graph, make sure that you have to correct variable in the `x` and `y` arguements. If you need assistance with `ggplot()` type `?ggplot`.
+Look at the graph, make sure that you have to correct variable in the `x` and `y` arguments. If you need assistance with `ggplot()` type `?ggplot`.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -282,7 +282,7 @@ You can use the RStudio platform just like you would on your home computer.
 - There is an initial decrease in the boy-to-girl ratio born but this number appears to level around 1960 and remain constant since then. 
 
 *** =hint
-Look at the graph, make sure that you have to correct variable in the `x` and `y` arguements. If you need assistance with `ggplot()` type `?ggplot`.
+Look at the graph, make sure that you have to correct variable in the `x` and `y` arguments. If you need assistance with `ggplot()` type `?ggplot`.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -329,7 +329,7 @@ You can use the RStudio platform just like you would on your home computer.
 *** =hint
 Sort your dataset in descending order based on the `total` column. You can do this 
 interactively in the data viewer by clicking on the arrows next to the variable 
-names. Or to arrange the data in a descenting order with new function: `desc` (for 
+names. Or to arrange the data in a descending order with the new function: `desc` (for 
 descending order).
 
 *** =pre_exercise_code
@@ -356,4 +356,3 @@ test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex8.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex8.init.R
 lab1_ex8.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex8.Rmd
-
