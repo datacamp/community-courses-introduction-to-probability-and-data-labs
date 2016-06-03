@@ -4,7 +4,7 @@
   library(dplyr)
   library(statsr)
   library(ggplot2)
-  library(utils)
+  #library(utils)
   #file.edit("lab1_ex7.Rmd")
-  source(".init.R")
+  #source(".init.R")
 }
