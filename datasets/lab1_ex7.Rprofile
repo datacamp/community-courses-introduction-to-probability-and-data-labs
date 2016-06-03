@@ -5,5 +5,5 @@
     source(".init.R")
     file.edit("lab1_ex7.Rmd")
     }
-  #eval(go())
+  eval(go())
 }
