@@ -92,13 +92,13 @@ lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-3. Which of the following best describes the number of girls baptised over the years included in this dataset?
+Q3. Which of the following best describes the number of girls baptised over the years included in this dataset?
 
 *** =instructions
 - There appears to be no trend in the number of girls baptised from 1629 to 1710.
@@ -137,13 +137,13 @@ lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-4. How many variables are included in this data set?
+Q4. How many variables are included in this data set?
 
 *** =instructions
 - 2
@@ -182,13 +182,13 @@ lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-5. Has the proportion of boys born in the US has decreased over time.
+Q5. Has the proportion of boys born in the US has decreased over time.
 
 *** =instructions
 - TRUE
@@ -221,13 +221,13 @@ lab1_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-6. Which of the following statements is true?
+Q6. Which of the following statements is true?
 
 *** =instructions
 - Every year there are more girls born than boys.
@@ -265,14 +265,13 @@ lab1_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-7. Which of the following best describes the trend? 
+Q7. Which of the following best describes the trend? 
 
 *** =instructions
 - There appears to be no trend in the boy-to-girl ratio from 1940 to 2013.
@@ -310,13 +309,13 @@ lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-8. In what year did we see the most total number of births in the U.S.?
+Q8. In what year did we see the most total number of births in the U.S.?
 
 *** =instructions
 - 1940
