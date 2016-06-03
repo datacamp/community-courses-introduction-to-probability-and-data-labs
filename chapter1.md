@@ -34,7 +34,7 @@ library(statsr)
 msg1 <- "Try again, rerun the `dim()` function on the `arbuthnot` data."
 msg2 <- "Nope, what was the result of the `dim()` function."
 msg3 <- "Keep trying! Rerun the `dim()` function on the `arbuthnot` data."
-msg4 <- "Awesome!"
+msg4 <- "Great work!"
 msg5 <- "Not quite, rerun the `dim()` function on the `arbuthnot` data."
 
 test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
@@ -76,7 +76,7 @@ dim(arbuthnot)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Not quite."
-msg2 <- "Awesome!"
+msg2 <- Nice job!"
 msg3 <- "Keep trying!"
 msg4 <- "Nope!"
 msg5 <- "Try again!"
@@ -168,7 +168,7 @@ library(statsr)
 msg1 <- "Try again."
 msg2 <- "Try again."
 msg3 <- "Keep trying!"
-msg4 <- "Awesome!"
+msg4 <- "You got it!"
 msg5 <- "Try again."
 
 test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
@@ -207,7 +207,7 @@ dim(present)
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Awesome!"
+msg1 <- "That's right!"
 msg2 <- "Try again."
 
 test_mc(1, feedback_msgs = c(msg1, msg2))
@@ -251,7 +251,7 @@ ggplot(data = present, aes(x = year, y = boys/total)) + geom_line() + geom_point
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Try again."
-msg2 <- "Awesome!"
+msg2 <- "Great work!"
 msg3 <- "Keep trying!"
 
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3))
@@ -296,7 +296,7 @@ Look at the graph, make sure that you have to correct variable in the `x` and `y
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Keep trying!"
-msg3 <- "Awesome!"
+msg3 <- "Awesome, you did great!"
 msg4 <- "Try again."
 msg5 <- "Try again."
 
