@@ -5,11 +5,11 @@ attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
-<strong>Follow the directions: </strong> <p>Type `go()` and hit Enter to get started!</p><p> <strong>in the console to open the R Markdown file.</strong></p>
+<strong>Follow the directions: </strong> <p>```Type 'go()' and hit Enter to get started!</p><p> <strong>in the console to open the R Markdown file.```</strong></p>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
+**The markdown file contains the instuctions to answer the multiple choice question below.
 
 Q1. How many variables are included in this data set? 
 
