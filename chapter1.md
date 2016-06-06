@@ -76,7 +76,7 @@ dim(arbuthnot)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Not quite."
-msg2 <- Nice job!"
+msg2 <- "Nice job!"
 msg3 <- "Keep trying!"
 msg4 <- "Nope!"
 msg5 <- "Try again!"
