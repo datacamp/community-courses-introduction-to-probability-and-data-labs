@@ -1,6 +1,6 @@
 ---
 title: "Introduction to R and RStudio"
-output: statsr:::statswithr_lab
+output: statsr:::statswithr_lab  
 ---
 
 
@@ -11,10 +11,10 @@ In case you forgot, you can add variables to a dataset using the `$` operator.  
 You used the following code to plot the proportion of boy births over time for the `arbuthnot` dataset.
 `ggplot(data = arbuthnot, aes(x = year, y = boys/total)) + geom_line() + geom_point()`
 
-**See Quesiton 7.
+**See Question 7.
 
 ```{r load-packages, message = FALSE}
-# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+# Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
 library(dplyr)
 library(statsr)
 library(ggplot2)

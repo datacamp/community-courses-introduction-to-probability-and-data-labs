@@ -5,7 +5,7 @@ output: statsr:::statswithr_lab
 R has some powerful functions for making graphics. We can create a simple plot of the number of girls baptized per year with the command
 
 ```{r load-packages, message = FALSE}
-# Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+# Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
 library(dplyr)
 library(statsr)
 library(ggplot2)
