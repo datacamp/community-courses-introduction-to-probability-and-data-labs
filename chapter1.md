@@ -53,7 +53,7 @@ lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
+The markdown file contains the instuctions to answer the multiple choice question below.
 
 Q2. What command would you use to extract just the counts of girls born? 
 
@@ -98,7 +98,7 @@ lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
+The markdown file contains the instuctions to answer the multiple choice question below.
 
 Q3. Which of the following best describes the number of girls baptised over the years included in this dataset?
 
@@ -143,7 +143,7 @@ lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
+The markdown file contains the instuctions to answer the multiple choice question below.
 
 Q4. How many variables are included in this data set?
 
@@ -188,7 +188,7 @@ lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
+The markdown file contains the instuctions to answer the multiple choice question below.
 
 Q5. Has the proportion of boys born in the US has decreased over time.
 
@@ -227,7 +227,7 @@ lab1_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
+The markdown file contains the instuctions to answer the multiple choice question below.
 
 Q6. Which of the following statements is true?
 
@@ -271,7 +271,7 @@ lab1_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
+The markdown file contains the instuctions to answer the multiple choice question below.
 
 Q7. Which of the following best describes the trend? 
 
@@ -315,7 +315,7 @@ lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
+The markdown file contains the instuctions to answer the multiple choice question below.
 
 Q8. In what year did we see the most total number of births in the U.S.?
 
