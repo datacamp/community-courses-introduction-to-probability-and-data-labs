@@ -7,7 +7,7 @@ attachments :
 ##  Question 1
 <strong>Follow the directions in the console to open the R Markdown file:</strong>
 
-<p>```Type 'go()' and hit Enter to get started!```</p>
+```Type 'go()' and hit Enter to get started!```
 
 You can use the RStudio platform just like you would on your home computer. 
 
