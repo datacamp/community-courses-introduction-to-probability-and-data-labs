@@ -3,9 +3,7 @@ title: "Introduction to R and RStudio"
 output: statsr:::statswithr_lab
 ---
 
-6. Create a new variable called `more_boys` which contains the value of either `TRUE` 
-if that year had more boys than girls, or `FALSE` if that year did not. Based on this 
-variable which of the following statements is true? 
+6. Create a new variable called `more_boys` which contains the value of either `TRUE` if that year had more boys than girls, or `FALSE` if that year did not. Based on this  variable which of the following statements is true? 
 
 The code that created the `more_boys` column for the `arbuthnot` dataset used the following functions and operators: `%>%`, `mutate()`, `>`.
 

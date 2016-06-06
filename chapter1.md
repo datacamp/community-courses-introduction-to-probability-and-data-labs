@@ -1,17 +1,17 @@
 
-title       : Lab 1
-description : Insert the chapter description here
+title       : Lab 1 - Intro to probability and data
+description : Questions for Lab 1
 attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions: </strong> <p>Type `go()` and hit Enter to get started!</p><p> <strong>in the console to open the R Markdown file.</strong></p>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-1. How many variables are included in this data set? 
+Q1. How many variables are included in this data set? 
 
 *** =instructions
 - 2 
@@ -40,20 +40,20 @@ msg5 <- "Not quite, rerun the `dim()` function on the `arbuthnot` data."
 test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1.init.R
-lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.init.R
+lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.Rmd
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-2. What command would you use to extract just the counts of girls born? 
+Q2. What command would you use to extract just the counts of girls born? 
 
 *** =instructions
 - `arbuthnot$boys`                                                                                    
@@ -76,7 +76,7 @@ dim(arbuthnot)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Not quite."
-msg2 <- Nice job!"
+msg2 <- "Nice job!"
 msg3 <- "Keep trying!"
 msg4 <- "Nope!"
 msg5 <- "Try again!"
@@ -85,20 +85,20 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex2.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex2.init.R
-lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex2.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.init.R
+lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.Rmd
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-3. Which of the following best describes the number of girls baptised over the years included in this dataset?
+Q3. Which of the following best describes the number of girls baptised over the years included in this dataset?
 
 *** =instructions
 - There appears to be no trend in the number of girls baptised from 1629 to 1710.
@@ -130,20 +130,20 @@ msg5 <- "Try again."
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex3.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex3.init.R
-lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex3.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.init.R
+lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.Rmd
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-4. How many variables are included in this data set?
+Q4. How many variables are included in this data set?
 
 *** =instructions
 - 2
@@ -175,20 +175,20 @@ test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex4.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex4.init.R
-lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex4.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.init.R
+lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.Rmd
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-5. Has the proportion of boys born in the US has decreased over time.
+Q5. Has the proportion of boys born in the US has decreased over time.
 
 *** =instructions
 - TRUE
@@ -214,20 +214,20 @@ test_mc(1, feedback_msgs = c(msg1, msg2))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex5.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex5.init.R
-lab1_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex5.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.init.R
+lab1_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.Rmd
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-6. Which of the following statements is true?
+Q6. Which of the following statements is true?
 
 *** =instructions
 - Every year there are more girls born than boys.
@@ -244,7 +244,7 @@ You can easily print the new column using the dataset name + the `$` operator + 
 library(dplyr)
 library(ggplot2)
 library(statsr)
-load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/present_ex5.RData"))
+load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/present_ex5.RData"))
 ggplot(data = present, aes(x = year, y = boys/total)) + geom_line() + geom_point()
 ```
 
@@ -258,21 +258,20 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex6.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex6.init.R
-lab1_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex6.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.init.R
+lab1_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.Rmd
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-7. Which of the following best describes the trend? 
+Q7. Which of the following best describes the trend? 
 
 *** =instructions
 - There appears to be no trend in the boy-to-girl ratio from 1940 to 2013.
@@ -289,7 +288,7 @@ Look at the graph, make sure that you have to correct variable in the `x` and `y
 #library(dplyr)
 #library(ggplot2)
 #library(statsr)
-#load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/present_ex6.RData"))
+#load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/present_ex6.RData"))
 ```
 
 *** =sct
@@ -304,19 +303,19 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex7.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex7.init.R
-lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex7.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.init.R
+lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.Rmd
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
-<strong>Follow the instructions in the console to open the `R Markdown file` that corresponds to this exercise.</strong>
+<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
-<strong>Follow the instructions in the markdown file to answer the multiple choice question below.<strong>
+<strong>The markdown file contains the instuctions to answer the multiple choice question below.<strong>
 
-8. In what year did we see the most total number of births in the U.S.?
+Q8. In what year did we see the most total number of births in the U.S.?
 
 *** =instructions
 - 1940
@@ -337,7 +336,7 @@ descending order).
 library(dplyr)
 library(ggplot2)
 library(statsr)
-load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/present_ex7.RData"))
+load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/present_ex7.RData"))
 ggplot(data = present, aes(x = year, y = prop_boy_girl)) + geom_line() + geom_point()
 ```
 
@@ -353,6 +352,6 @@ test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex8.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex8.init.R
-lab1_ex8.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex8.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.init.R
+lab1_ex8.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.Rmd

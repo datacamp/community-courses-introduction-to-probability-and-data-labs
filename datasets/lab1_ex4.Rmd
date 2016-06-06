@@ -5,10 +5,7 @@ output: statsr:::statswithr_lab
 
 ## Dataset 2: Present birth records
 
-In the previous few pages, you recreated some of the displays and preliminary 
-analysis of Arbuthnot's baptism data. Next you will do a similar analysis, 
-but for present day birth records in the United States. Load up the 
-present day data with the following command.
+In the previous few pages, you recreated some of the displays and preliminary analysis of Arbuthnot's baptism data. Next you will do a similar analysis, but for present day birth records in the United States. Load up the present day data with the following command.
 
 ```{r load-packages, message = FALSE}
 # Althought the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
@@ -21,8 +18,7 @@ library(ggplot2)
 data(present)
 ```
 
-The data are stored in a data frame called `present` which should now be loaded in 
-your workspace.
+The data are stored in a data frame called `present` which should now be loaded in your workspace.
 
 **See Quesiton 4.
 
@@ -32,8 +28,7 @@ your workspace.
 ```
 
 <div id="exercise">
-**Exercise**: What years are included in this dataset? **Hint:** Use the `range` 
-function and `present$year` as its argument.
+**Exercise**: What years are included in this dataset? **Hint:** Use the `range` function and `present$year` as its argument.
 </div>
 
 ```{r years-in-present-data}
