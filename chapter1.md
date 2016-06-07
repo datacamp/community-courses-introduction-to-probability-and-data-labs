@@ -306,7 +306,7 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.init.R
-lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.Rmd
+lab1_ex7.2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.2.Rmd
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
