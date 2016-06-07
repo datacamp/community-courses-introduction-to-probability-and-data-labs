@@ -18,11 +18,6 @@ output:
 library(dplyr)
 library(statsr)
 library(ggplot2)
-myViewer <- getOption("viewer")
-myViewer("lab1_ex8.html")
-
-file.copy("lab1_ex8.html", file.path(tempdir(), "lab1_ex8.html"))
-myViewer(file.path(tempdir(), "lab1_ex8.html"))
 
 ```
 
