@@ -5,8 +5,8 @@
     source(".init.R")
     file.edit("lab1_ex7.2.Rmd")
   rmarkdown::render("lab1_ex7.2.Rmd")
-  myViewer <- getOption("viewer")
-  myViewer("lab1_ex7.2.html")
+  file.copy("lab1_ex7.2.html", file.path(tempdir(), "lab1_ex7.2.html"))
+  myViewer(file.path(tempdir(), "lab1_ex7.2.html"))
   }
 }
 
