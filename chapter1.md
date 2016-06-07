@@ -34,12 +34,12 @@ library(statsr)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Try again, rerun the `dim()` function on the `arbuthnot` data."
-msg2 <- "Nope, what was the result of the `dim()` function."
+msg2 <- "Great work!"
 msg3 <- "Keep trying! Rerun the `dim()` function on the `arbuthnot` data."
-msg4 <- "Great work!"
+msg4 <- "Nope, what was the result of the `dim()` function."
 msg5 <- "Not quite, rerun the `dim()` function on the `arbuthnot` data."
 
-test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.Rprofile
