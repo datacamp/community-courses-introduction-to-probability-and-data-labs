@@ -1,10 +1,13 @@
+16 lines (11 sloc)  352 Bytes
 .First <- function() {
   message("Type go() and hit Enter to get started!\n")
   
   go <<- function() {
     source(".init.R")
     file.edit("lab1_ex6.Rmd")
-    }
+  rmarkdown::render("lab1_ex6.Rmd")
+  myViewer <- getOption("viewer")
+  file.copy("lab1_ex6.html", file.path(tempdir(), "lab1_ex6.html"))
+  myViewer(file.path(tempdir(), "lab1_ex6.html"))
+  }
 }
-
-
