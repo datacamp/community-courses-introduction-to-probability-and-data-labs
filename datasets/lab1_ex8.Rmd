@@ -1,15 +1,29 @@
 ---
 title: "Introduction to R and RStudio"
-output: statsr:::statswithr_lab
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css
 ---
 
-8. In what year did we see the most total number of births in the U.S.? *Hint:* Sort your dataset in descending order based on the `total` column. You can do this interactively in the data viewer by clicking on the arrows next to the variable names. Or to arrange the data in a descending order with new function: `desc` (for  descending order).
+---
 
-```{r load-packages, message = FALSE}
+8. In what year did we see the most total number of births in the U.S.? 
+
+*Hint:* Sort your dataset in descending order based on the `total` column. You can do this interactively in the data viewer by clicking on the arrows next to the variable names. Or to arrange the data in a descending order with new function: `desc` (for  descending order).
+
+```{r load-packages, message = FALSE, echo = FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
 library(dplyr)
 library(statsr)
 library(ggplot2)
+myViewer <- getOption("viewer")
+myViewer("lab1_ex8.html")
+
+file.copy("lab1_ex8.html", file.path(tempdir(), "lab1_ex8.html"))
+myViewer(file.path(tempdir(), "lab1_ex8.html"))
+
 ```
 
 **See Question 8.

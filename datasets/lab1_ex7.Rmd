@@ -1,6 +1,10 @@
 ---
 title: "Introduction to R and RStudio"
-output: statsr:::statswithr_lab  
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css 
 ---
 
 
@@ -13,7 +17,7 @@ You used the following code to plot the proportion of boy births over time for t
 
 **See Question 7.
 
-```{r load-packages, message = FALSE}
+```{r load-packages, message = FALSE, echo=FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
 library(dplyr)
 library(statsr)

@@ -1,13 +1,17 @@
 ---
 title: "Introduction to R and RStudio"
-output: statsr:::statswithr_lab  
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css
 ---
 
 6. Create a new variable called `more_boys` which contains the value of either `TRUE` if that year had more boys than girls, or `FALSE` if that year did not. Based on this  variable which of the following statements is true? 
 
 The code that created the `more_boys` column for the `arbuthnot` dataset used the following functions and operators: `%>%`, `mutate()`, `>`.
 
-```{r load-packages, message = FALSE}
+```{r load-packages, message = FALSE, echo = FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
 library(dplyr)
 library(statsr)

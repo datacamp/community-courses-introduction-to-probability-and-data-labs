@@ -1,10 +1,14 @@
 ---
 title: "Introduction to R and RStudio"
-output: statsr:::statswithr_lab
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css
 ---
 R has some powerful functions for making graphics. We can create a simple plot of the number of girls baptized per year with the command
 
-```{r load-packages, message = FALSE}
+```{r load-packages, message = FALSE, echo=FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
 library(dplyr)
 library(statsr)
