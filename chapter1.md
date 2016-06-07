@@ -22,7 +22,7 @@ Q1. How many variables are included in this data set?
 - 82
 - 1710
 *** =hint
-The `dim()` funciton shows the number of rows and columns in a data set.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -65,7 +65,7 @@ Q2. What command would you use to extract just the counts of girls born?
 - `$girls` 
 
 *** =hint
-The `$` operator allows you to call a specific column within a dataset.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -111,7 +111,7 @@ Q3. Which of the following best describes the number of girls baptised over the 
  
 
 *** =hint
-Look at the graph, make sure that you have to correct variable in the `x` and `y` arguments. If you need assistance with `ggplot()` type `?ggplot`.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -156,7 +156,7 @@ Q4. How many variables are included in this data set?
  
 
 *** =hint
-The `dim()` function gives you the number of rows and columns in a data set.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -197,7 +197,7 @@ Q5. Has the proportion of boys born in the US has decreased over time.
 - FALSE
 
 *** =hint
-Use the `range` function and `present$year` as its argument.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -238,8 +238,7 @@ Q6. Which of the following statements is true?
  
 
 *** =hint
-You can easily print the new column using the dataset name + the `$` operator + column name. This was the code from the `arbuthnot` dataset to add a `more_boys` variable ```arbuthnot <- arbuthnot %>% mutate(more_boys = boys > girls)```.
-
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -283,7 +282,7 @@ Q7. Which of the following best describes the trend?
 - There is an initial decrease in the boy-to-girl ratio born but this number appears to level around 1960 and remain constant since then. 
 
 *** =hint
-Look at the graph, make sure that you have to correct variable in the `x` and `y` arguments. If you need assistance with `ggplot()` type `?ggplot`.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -328,10 +327,7 @@ Q8. In what year did we see the most total number of births in the U.S.?
  
 
 *** =hint
-Sort your dataset in descending order based on the `total` column. You can do this 
-interactively in the data viewer by clicking on the arrows next to the variable 
-names. Or to arrange the data in a descending order with the new function: `desc` (for 
-descending order).
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
