@@ -180,7 +180,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.init.R
 lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.csslab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
