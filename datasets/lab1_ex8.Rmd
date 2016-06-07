@@ -21,7 +21,7 @@ library(ggplot2)
 
 ```
 
-**See Question 8.
+** Answer Question 8 to the left.
 
 ```{r most-total-births}
 # type your code for Question 8 here use the output from this line to answer Question 8

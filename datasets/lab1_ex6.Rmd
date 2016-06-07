@@ -18,7 +18,7 @@ library(statsr)
 library(ggplot2)
 ```
 
-**See Question 6
+** Answer Question 6 to the left.
 
 ```{r more-boys-per-year}
 # type your code for Question 6 here, use the output from this line to answer Question 6, and Knit
