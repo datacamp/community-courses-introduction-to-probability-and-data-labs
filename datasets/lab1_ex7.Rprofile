@@ -1,4 +1,3 @@
-16 lines (11 sloc)  352 Bytes
 .First <- function() {
   message("Type go() and hit Enter to get started!\n")
   
