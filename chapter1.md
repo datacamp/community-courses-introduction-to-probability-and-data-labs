@@ -168,12 +168,12 @@ library(statsr)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Try again."
-msg2 <- "Try again."
+msg2 <- "You got it!"
 msg3 <- "Keep trying!"
-msg4 <- "You got it!"
+msg4 <- "Try again."
 msg5 <- "Try again."
 
-test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
