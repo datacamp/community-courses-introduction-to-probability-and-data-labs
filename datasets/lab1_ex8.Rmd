@@ -9,7 +9,7 @@ output:
 
 ---
 
-8. In what year did we see the most total number of births in the U.S.? 
+8. In what year did we see the most total number of births in the U.S.? <strong>Answer Question 8 to the left.</strong>
 
 *Hint:* Sort your dataset in descending order based on the `total` column. You can do this interactively in the data viewer by clicking on the arrows next to the variable names. Or to arrange the data in a descending order with new function: `desc` (for  descending order).
 
@@ -21,7 +21,6 @@ library(ggplot2)
 
 ```
 
-** Answer Question 8 to the left.
 
 ```{r most-total-births}
 # type your code for Question 8 here use the output from this line to answer Question 8

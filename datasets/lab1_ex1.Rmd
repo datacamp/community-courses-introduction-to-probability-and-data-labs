@@ -92,4 +92,4 @@ This command should output `[1] 82 3`, indicating that there are 82 rows and 3 c
 names(arbuthnot)
 ```
 
-1. How many variables are included in this data set?  ## Answer Question 1 to the left.
+1. How many variables are included in this data set? <strong>Answer Question 1 to the left.</strong>
