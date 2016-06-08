@@ -355,3 +355,4 @@ test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.init.R
 lab1_ex8.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+lab8_wk.RData: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab8_wk.RData
