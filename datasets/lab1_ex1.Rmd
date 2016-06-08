@@ -4,11 +4,8 @@ output:
   html_document: 
     theme: cerulean 
     highlight: pygments
-    css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+    css: lab.css
 ---
-
-
-
 
 The goal of this lab is to introduce you to R and RStudio, which you'll be using throughout the course both to learn the statistical concepts discussed in the  course and to analyze real data and come to informed conclusions. To straighten  out which is which: R is the name of the programming language itself and RStudio is a convenient interface.
 
@@ -95,6 +92,4 @@ This command should output `[1] 82 3`, indicating that there are 82 rows and 3 c
 names(arbuthnot)
 ```
 
-1. How many variables are included in this data set? 
-
-** Answer Question 1 to the left.
+1. How many variables are included in this data set?  ## Answer Question 1 to the left.
