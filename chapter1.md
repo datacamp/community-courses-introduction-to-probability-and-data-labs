@@ -345,9 +345,10 @@ msg1 <- "Try again."
 msg2 <- "Try again."
 msg3 <- "Keep trying!"
 msg4 <- "Try again."
-msg5 <- "Awesome! Click this link to get a complete Rmarkdown file of the exercises in this Lab: http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/full_lab.Rmd" 
+msg5 <- "Awesome!" 
 
 test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+success_msg("Click this link to get a complete Rmarkdown file of the exercises in this Lab: http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/full_lab.Rmd")
 ```
 
 *** =attachments
