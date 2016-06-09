@@ -44,7 +44,7 @@ test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1.init.R
-lab1_ex1_video.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1_video.Rmd
+lab1_ex1_final.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1_video.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
@@ -84,11 +84,10 @@ msg4 <- "Nope!"
 msg5 <- "Try again!"
 
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
-success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/labex_wk.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/labex_wk.html) to get the Knitted HTML output.")
+success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/labex_final.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/labex_final.html) to get the Knitted HTML output.")
 ```
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex2.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex2.init.R
-lab1_ex2_video.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex2_video.Rmd
+lab1_ex2_example.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex2_video.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
-labex_wk.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/labex_wk.Rmd
