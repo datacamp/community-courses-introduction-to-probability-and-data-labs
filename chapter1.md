@@ -33,8 +33,8 @@ library(statsr)
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Great work!"
-msg2 <- "Try again, rerun the `dim()` function on the `arbuthnot` data."
+msg1 <- "Try again, rerun the `dim()` function on the `arbuthnot` data." 
+msg2 <- "Great work!"
 msg3 <- "Keep trying! Rerun the `dim()` function on the `arbuthnot` data."
 msg4 <- "Nope, what was the result of the `dim()` function."
 msg5 <- "Not quite, rerun the `dim()` function on the `arbuthnot` data."
@@ -58,11 +58,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 Q2. What command would you use to extract just the counts of girls born? 
 
 *** =instructions
-- `cars$distance`                                                                                    
-- `cars$speed`
-- `speed`
-- `cars[speed]` 
-- `$speed` 
+- `arbuthnot$boys`
+- `arbuthnot$girls`
+- `girls`
+- `arbuthnot[girls]`
+- `$girls`
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
