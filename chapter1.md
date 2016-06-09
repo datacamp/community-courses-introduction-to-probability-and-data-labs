@@ -33,13 +33,13 @@ library(statsr)
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again, rerun the `dim()` function on the `arbuthnot` data."
-msg2 <- "Great work!"
+msg1 <- "Great work!"
+msg2 <- "Try again, rerun the `dim()` function on the `arbuthnot` data."
 msg3 <- "Keep trying! Rerun the `dim()` function on the `arbuthnot` data."
 msg4 <- "Nope, what was the result of the `dim()` function."
 msg5 <- "Not quite, rerun the `dim()` function on the `arbuthnot` data."
 
-test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.Rprofile
@@ -58,11 +58,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 Q2. What command would you use to extract just the counts of girls born? 
 
 *** =instructions
-- `arbuthnot$boys`                                                                                    
-- `arbuthnot$girls`
-- `girls`
-- `arbuthnot[girls]` 
-- `$girls` 
+- `cars$distance`                                                                                    
+- `cars$speed`
+- `speed`
+- `cars[speed]` 
+- `$speed` 
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
