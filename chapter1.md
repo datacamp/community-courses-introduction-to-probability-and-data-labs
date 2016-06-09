@@ -22,7 +22,7 @@ Q1. How many variables are included in this data set?
 - 82
 - 1710
 *** =hint
-The `dim()` funciton shows the number of rows and columns in a data set.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -34,18 +34,18 @@ library(statsr)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Try again, rerun the `dim()` function on the `arbuthnot` data."
-msg2 <- "Nope, what was the result of the `dim()` function."
+msg2 <- "Great work!"
 msg3 <- "Keep trying! Rerun the `dim()` function on the `arbuthnot` data."
-msg4 <- "Great work!"
+msg4 <- "Nope, what was the result of the `dim()` function."
 msg5 <- "Not quite, rerun the `dim()` function on the `arbuthnot` data."
 
-test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.init.R
 lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.Rmd
-
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
@@ -65,7 +65,7 @@ Q2. What command would you use to extract just the counts of girls born?
 - `$girls` 
 
 *** =hint
-The `$` operator allows you to call a specific column within a dataset.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -90,7 +90,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.init.R
 lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.Rmd
-
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
@@ -111,7 +111,7 @@ Q3. Which of the following best describes the number of girls baptised over the 
  
 
 *** =hint
-Look at the graph, make sure that you have to correct variable in the `x` and `y` arguments. If you need assistance with `ggplot()` type `?ggplot`.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -135,7 +135,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.init.R
 lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.Rmd
-
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
@@ -156,7 +156,7 @@ Q4. How many variables are included in this data set?
  
 
 *** =hint
-The `dim()` function gives you the number of rows and columns in a data set.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -168,19 +168,19 @@ library(statsr)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Try again."
-msg2 <- "Try again."
+msg2 <- "You got it!"
 msg3 <- "Keep trying!"
-msg4 <- "You got it!"
+msg4 <- "Try again."
 msg5 <- "Try again."
 
-test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.init.R
 lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.Rmd
-
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
@@ -197,7 +197,7 @@ Q5. Has the proportion of boys born in the US has decreased over time.
 - FALSE
 
 *** =hint
-Use the `range` function and `present$year` as its argument.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -219,7 +219,7 @@ test_mc(1, feedback_msgs = c(msg1, msg2))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.init.R
 lab1_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.Rmd
-
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
@@ -238,8 +238,7 @@ Q6. Which of the following statements is true?
  
 
 *** =hint
-You can easily print the new column using the dataset name + the `$` operator + column name. This was the code from the `arbuthnot` dataset to add a `more_boys` variable ```arbuthnot <- arbuthnot %>% mutate(more_boys = boys > girls)```.
-
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -263,7 +262,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.init.R
 lab1_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.Rmd
-
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
@@ -283,7 +282,7 @@ Q7. Which of the following best describes the trend?
 - There is an initial decrease in the boy-to-girl ratio born but this number appears to level around 1960 and remain constant since then. 
 
 *** =hint
-Look at the graph, make sure that you have to correct variable in the `x` and `y` arguments. If you need assistance with `ggplot()` type `?ggplot`.
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -308,6 +307,7 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.init.R
 lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.Rmd
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
@@ -328,10 +328,7 @@ Q8. In what year did we see the most total number of births in the U.S.?
  
 
 *** =hint
-Sort your dataset in descending order based on the `total` column. You can do this 
-interactively in the data viewer by clicking on the arrows next to the variable 
-names. Or to arrange the data in a descending order with the new function: `desc` (for 
-descending order).
+Check out the instructions in the .Rmd file to answer the multiple choice question.
 
 *** =pre_exercise_code
 ```{r,eval=FALSE}
@@ -348,12 +345,15 @@ msg1 <- "Try again."
 msg2 <- "Try again."
 msg3 <- "Keep trying!"
 msg4 <- "Try again."
-msg5 <- "Awesome!"
+msg5 <- "Awesome!" 
 
 test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+success_msg("Click [here](http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.Rmd) to get a complete Rmarkdown file of the exercises in this Lab.")
 ```
 
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.init.R
 lab1_ex8.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.Rmd
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+lab8_wk.RData: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab8_wk.RData
