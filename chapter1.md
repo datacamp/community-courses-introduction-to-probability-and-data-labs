@@ -13,7 +13,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-Q1. How many variables are included in this data set? 
+<strong>Q1. How many variables are included in this data set?</strong>
 
 *** =instructions
 - 2 
@@ -49,13 +49,13 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
-<strong>Follow the directions in the console to open the `R Markdown file`.</strong>
+<strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer. 
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-Q2. What command would you use to extract just speed of the cars? 
+<strong>Q2. What command would you use to extract just speed of the cars?</strong>
 
 *** =instructions
 - `cars$speed`                                                                                    
