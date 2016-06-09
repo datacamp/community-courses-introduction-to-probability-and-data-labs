@@ -44,7 +44,7 @@ test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1.init.R
-lab1_ex1_final.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1_video.Rmd
+lab1_ex1_example.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1161/datasets/lab1_ex1_video.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
