@@ -58,11 +58,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 Q2. What command would you use to extract just speed of the cars? 
 
 *** =instructions
-- `cars$distance`                                                                                    
-- `cars$speed`
-- `speed`
-- `cars[speed]` 
-- `$speed` 
+- `cars$speed`                                                                                    
+- `cars$dist`
+- `dist`
+- `cars[dist]` 
+- `$dist` 
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
