@@ -55,7 +55,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q2. What command would you use to extract just speed of the cars?</strong>
+<strong>Q2. What command would you use to extract just stopping distances of the cars?</strong>
 
 *** =instructions
 - `cars$speed`                                                                                    
