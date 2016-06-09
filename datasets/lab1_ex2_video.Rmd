@@ -8,11 +8,11 @@ output:
 ---
 
 <div id="exercise">
-**Exercise**: What years are included in this dataset? Hint: Take a look at the year 
+**Exercise**: What is the fasted speed included in this dataset? Hint: Take a look at the speed 
 variable in the Data Viewer to answer this question.
 </div>
 
-You should see that the data frame contains the columns `year`,  `boys`, and `girls`. At this point, you might notice that many of the commands in R look a lot like functions from math class; that is, invoking R commands means supplying a function with some number of arguments. The `dim` and `names` commands, for  example, each took a single argument, the name of a data frame.
+You should see that the data frame contains the columns `distance`, and `speed`. At this point, you might notice that many of the commands in R look a lot like functions from math class; that is, invoking R commands means supplying a function with some number of arguments. The `dim` and `names` commands, for  example, each took a single argument, the name of a data frame.
 
 <div id="boxedtext">
 **Tip: ** If you use the up and down arrow keys, you can scroll through your  previous commands, your so-called command history. You can also access it by clicking on the history tab in the upper right panel. This will save you a lot of typing in the future.
@@ -35,18 +35,18 @@ library(ggplot2)
 
 Let's start to examine the data a little more closely. We can access the data in a single column of a data frame separately using a command like
 
-```{r view-boys}
-arbuthnot$boys
+```{r view-speed}
+cars$speed
 ```
 
-This command will only show the number of boys baptized each year. The dollar sign basically says "go to the data frame that comes before me, and find the variable that comes after me".
+This command will only show the average spped for the list of trips in the dataset. The dollar sign basically says "go to the data frame that comes before me, and find the variable that comes after me".
 
-2. What command would you use to extract just the counts of girls born? <strong>Answer Question 2 to the left.</strong>
+2. What command would you use to extract just the fastest average speed? <strong>Answer Question 2 to the left.</strong>
 
-```{r extract-counts-of-girls-born}
+```{r fastest-speed}
 # type your code for the Question 2 here, use the output from this line to answer Question 2, and Knit
 
 ```
 
-Notice that the way R has printed these data is different. When we looked at the complete data frame, we saw 82 rows, one on each line of the display. These data are no longer structured in a table with other variables, so they are displayed one right after another. Objects that print out in this way are called vectors; they represent a set of numbers. R has added numbers in [brackets] along the left side of the printout to indicate locations within the vector. For example, 5218 follows [1], indicating that 5218 is the first entry in the vector. And if [43] starts a line, then that would mean the first number on that line would represent the 43rd entry in the vector.
+Notice that the way R has printed these data is different. When we looked at the complete data frame, we saw 50 rows, one on each line of the display. These data are no longer structured in a table with other variables, so they are displayed one right after another. Objects that print out in this way are called vectors; they represent a set of numbers. R has added numbers in [brackets] along the left side of the printout to indicate locations within the vector. For example, 5218 follows [1], indicating that 5218 is the first entry in the vector. And if [43] starts a line, then that would mean the first number on that line would represent the 43rd entry in the vector.
 

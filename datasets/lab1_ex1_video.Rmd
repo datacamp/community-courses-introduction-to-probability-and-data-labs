@@ -51,12 +51,12 @@ To do so, you can
 
 Going forward you will be asked to load any relevant packages at the beginning of each lab.
 
-## Dataset 1: Dr. Arbuthnot's Baptism Records
+## Dataset 1: Example Data set
 
-To get you started, run the following command to load the data.
+To get you started, we will run an example dataset to show some of the functionality of RStudio and R Markdown.
 
-```{r load-abrbuthnot-data}
-data(arbuthnot)
+```{r load-cars-data}
+data(cars)
 ```
 
 To do so, once again, you can 
@@ -65,31 +65,31 @@ To do so, once again, you can
 - put your cursor on this line, and hit the **Run** button on the upper right  corner of the pane, or
 - type the code in the console.
 
-This command instructs R to load some data. The Arbuthnot baptism counts for boys and girls. You should see that the workspace area in the upper righthand corner of the RStudio window now lists a data set called `arbuthnot` that has 82 observations on 3 variables. As you interact with R, you will create a series of objects. Sometimes you load them as we have done here, and sometimes you create them yourself  as the byproduct of a computation or some analysis you have performed.
+This command instructs R to load some data. The `cars` dataset is a list of speeds and stopping distances of cars. You should see that the workspace area in the upper righthand corner of the RStudio window now lists a data set called `cars` that has 50 observations on 2 variables. As you interact with R, you will create a series of objects. Sometimes you load them as we have done here, and sometimes you create them yourself  as the byproduct of a computation or some analysis you have performed.
 
-The Arbuthnot data set refers to Dr. John Arbuthnot, an 18<sup>th</sup> century physician, writer, and mathematician. He was interested in the ratio of newborn boys to newborn girls, so he gathered the baptism records for children born in London for every year from 1629 to 1710. We can take a look at the data by  typing its name into the console.
+The `cars` dataset is a stored dataset within the base packages in R.
 
 ```{r view-data}
-arbuthnot
+cars
 ```
 
-However printing the whole dataset in the console is not that useful.  One advantage of RStudio is that it comes with a built-in data viewer. Click on the name `arbuthnot` in the *Environment* pane (upper right window) that lists the objects in your workspace. This will bring up an alternative display of the  data set in the *Data Viewer* (upper left window). You can close the data viewer by clicking on the *x* in the upper lefthand corner.
+However printing the whole dataset in the console is not that useful.  One advantage of RStudio is that it comes with a built-in data viewer. Click on the name `cars` in the *Environment* pane (upper right window) that lists the objects in your workspace. This will bring up an alternative display of the  data set in the *Data Viewer* (upper left window). You can close the data viewer by clicking on the *x* in the upper lefthand corner.
 
-What you should see are four columns of numbers, each row representing a  different year: the first entry in each row is simply the row number (an index we can use to access the data from individual years if we want), the second is the year, and the third and fourth are the numbers of boys and girls baptized that year, respectively. Use the scrollbar on the right side of the console window to examine the complete data set.
+What you should see are four columns of numbers, each row representing a different car: the first entry in each row is simply the row number, the second is the speed, and the third is the distnace it took to stop. Use the scrollbar on the right side of the console window to examine the complete data set.
 
-Note that the row numbers in the first column are not part of Arbuthnot's data. R adds them as part of its printout to help you make visual comparisons. You can think of them as the index that you see on the left side of a spreadsheet. In fact, the comparison to a spreadsheet will generally be helpful. R has stored Arbuthnot's data in a kind of spreadsheet or table called a *data frame*.
+Note that the row numbers in the first column are not part of `cars's` data. R adds them as part of its printout to help you make visual comparisons. You can think of them as the index that you see on the left side of a spreadsheet. In fact, the comparison to a spreadsheet will generally be helpful. R has stored `cars's` data in a kind of spreadsheet or table called a *data frame*.
 
 You can see the dimensions of this data frame by typing:
 
 ```{r dim-data}
 # use the output from this line to answer Question 1, and Knit
-dim(arbuthnot)
+dim(cars)
 ```
 
-This command should output `[1] 82 3`, indicating that there are 82 rows and 3 columns (we'll get to what the `[1]` means in a bit), just as it says next to the object in your workspace. You can see the names of these columns (or variables) by typing:
+This command should output `[1] 50 2`, indicating that there are 50 rows and 2 columns (we'll get to what the `[1]` means in a bit), just as it says next to the object in your workspace. You can see the names of these columns (or variables) by typing:
 
 ```{r names-data}
-names(arbuthnot)
+names(cars)
 ```
 
 1. How many variables are included in this data set? <strong>Answer Question 1 to the left.</strong>
