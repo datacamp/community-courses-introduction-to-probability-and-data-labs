@@ -13,7 +13,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-Q1. How many variables are included in this data set? 
+<strong>Q1. How many variables are included in this data set?</strong> 
 
 *** =instructions
 - 2 
@@ -55,7 +55,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-Q2. What command would you use to extract just the counts of girls born? 
+<strong>Q2. What command would you use to extract just the counts of girls born?</strong>  
 
 *** =instructions
 - `arbuthnot$boys`
@@ -100,7 +100,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-Q3. Which of the following best describes the number of girls baptised over the years included in this dataset?
+<strong>Q3. Which of the following best describes the number of girls baptised over the years included in this dataset?
 
 *** =instructions
 - There appears to be no trend in the number of girls baptised from 1629 to 1710.
@@ -145,7 +145,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-Q4. How many variables are included in this data set?
+<strong>Q4. How many variables are included in this data set?</strong> 
 
 *** =instructions
 - 2
@@ -190,7 +190,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-Q5. Has the proportion of boys born in the US has decreased over time.
+<strong>Q5. Has the proportion of boys born in the US has decreased over time.
 
 *** =instructions
 - TRUE
@@ -229,7 +229,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-Q6. Which of the following statements is true?
+<strong>Q6. Which of the following statements is true?</strong> 
 
 *** =instructions
 - Every year there are more girls born than boys.
@@ -272,7 +272,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-Q7. Which of the following best describes the trend? 
+<strong>Q7. Which of the following best describes the trend?</strong>  
 
 *** =instructions
 - There appears to be no trend in the boy-to-girl ratio from 1940 to 2013.
@@ -317,7 +317,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-Q8. In what year did we see the most total number of births in the U.S.?
+<strong>Q8. In what year did we see the most total number of births in the U.S.?</strong> 
 
 *** =instructions
 - 1940
