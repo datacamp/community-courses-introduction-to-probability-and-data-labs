@@ -8,6 +8,5 @@
   myViewer <- getOption("viewer")
   file.copy("lab2_ex3.html", file.path(tempdir(), "lab2_ex3.html"))
   myViewer(file.path(tempdir(), "lab2_ex3.html"))
-  load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/rdu_flights.Rdata"))
   }
 }
