@@ -45,7 +45,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex1.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex1.init.R
 lab2_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex1.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
@@ -90,7 +90,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex2.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex2.init.R
 lab2_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex2.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
@@ -135,7 +135,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex3.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex3.init.R
 lab2_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex3.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
@@ -180,7 +180,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex4.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex4.init.R
 lab2_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex4.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
@@ -219,7 +219,7 @@ test_mc(1, feedback_msgs = c(msg1, msg2))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex5.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex5.init.R
 lab2_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex5.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
@@ -262,7 +262,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex6.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex6.init.R
 lab2_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex6.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
@@ -307,7 +307,7 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex7.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex7.init.R
 lab2_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex7.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
@@ -354,7 +354,7 @@ test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex8.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex8.init.R
 lab2_ex8.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex8.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:4099fadc1b
@@ -402,7 +402,7 @@ test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex9.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex9.init.R
 lab2_ex9.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex9.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:caf40f340b
@@ -451,4 +451,4 @@ success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/productio
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex10.Rprofile
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex10.init.R
 lab2_ex10.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex10.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
