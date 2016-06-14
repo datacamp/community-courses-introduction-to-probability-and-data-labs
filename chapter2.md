@@ -16,11 +16,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q1. How many variables are included in this data set?</strong> 
 
 *** =instructions
-- 2 
-- 3 
-- 4
-- 82
-- 1710
+- 68
+- 1345
+- 2286
+- 3563
+- 32735
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
@@ -58,11 +58,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q2. What command would you use to extract just the counts of girls born?</strong>  
 
 *** =instructions
-- `arbuthnot$boys`
-- `arbuthnot$girls`
-- `girls`
-- `arbuthnot[girls]`
-- `$girls`
+- The distribution is unimodal.
+- The distribution is right skewed.
+- No flight is delayed more than 2 hours.
+- The distribution has several extreme values on the right side.
+- More than 50% of flights arrive on time or earlier than scheduled.
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -103,11 +103,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q3. Which of the following best describes the number of girls baptised over the years included in this dataset?
 
 *** =instructions
-- There appears to be no trend in the number of girls baptised from 1629 to 1710.
-- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
-- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
-- The number of girls baptised has decreased over time. 
-- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
+- American Airlines
+- JetBlue Airways
+- Virgin America
+- Delta and United Airlines
+- Frontier Airlines
  
 
 *** =hint
@@ -149,11 +149,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q4. How many variables are included in this data set?</strong> 
 
 *** =instructions
-- 2
-- 3
-- 4 
-- 74 
-- 2013
+- January
+- March
+- July
+- October
+- December
  
 
 *** =hint
@@ -194,8 +194,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q5. Has the proportion of boys born in the US has decreased over time.
 
 *** =instructions
-- TRUE
-- FALSE
+- January
+- March
+- July
+- October
+- December
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -233,10 +236,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q6. Which of the following statements is true?</strong> 
 
 *** =instructions
-- Every year there are more girls born than boys.
-- Every year there are more boys born than girls.
-- Half of the years there are more boys born, and the other half more girls born. 
- 
+- Mean would be more reliable as it gives us the true average.
+- Mean would be more reliable as the distribution of delays is symmetric.
+- Median would be more reliable as the distribution of delays is skewed.
+- Median would be more reliable as the distribution of delays is symmetric.
+- Both give us useful information. 
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -276,11 +280,9 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q7. Which of the following best describes the trend?</strong>  
 
 *** =instructions
-- There appears to be no trend in the boy-to-girl ratio from 1940 to 2013.
-- There is initially an increase in boy-to-girl ratio, which peaks around 1960. After 1960 there is a decrease in the boy-to-girl ratio, but the number begins to increase in the mid 1970s.
-- There is initially a decrease in the boy-to-girl ratio, and then an increase between 1960 and 1970, followed by a decrease.
-- The boy-to-girl ratio has increased over time.
-- There is an initial decrease in the boy-to-girl ratio born but this number appears to level around 1960 and remain constant since then. 
+- EWR
+- JFK
+- LGA 
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -321,11 +323,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q8. In what year did we see the most total number of births in the U.S.?</strong> 
 
 *** =instructions
-- 1940
-- 1957   
-- 1961        
-- 1991
-- 2007 
+- N666DN
+- N755US
+- N779JB
+- N947UW 
+- N959UW 
  
 
 *** =hint
@@ -369,11 +371,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q9 In what year did we see the most total number of births in the U.S.?</strong> 
 
 *** =instructions
-- 1940
-- 1957   
-- 1961        
-- 1991
-- 2007 
+- As distance increases the average speed of flights decreases.
+- The relationship is linear.
+- There is an overall postive association between distance and average speed.
+- There are no outliers. 
+- The distribution of distances are uniform over 0 to 5000 miles. 
  
 
 *** =hint
@@ -417,11 +419,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q10. In what year did we see the most total number of births in the U.S.?</strong> 
 
 *** =instructions
-- 1940
-- 1957   
-- 1961        
-- 1991
-- 2007 
+- Number 1
+- Number 2
+- Number 3
+- Number 4
+- Number 5
  
 
 *** =hint
