@@ -357,7 +357,7 @@ lab2_ex8.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_119
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
 
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:4099fadc1b
 ## Question 9
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -405,7 +405,7 @@ lab2_ex9.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_119
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab.css
 
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
+--- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:caf40f340b
 ## Question 10
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
