@@ -13,7 +13,7 @@ frame to create a new variable called `arr_type` with levels `"on time"` and
 `"delayed"` based on this definition. Then, determine the on time arrival percentage 
 based on whether the flight departed on time or not. What percent of flights  that 
 were `"delayed"` departing arrive `"on time"`? 
-[NUMERIC INPUT]
+<strong>Answer Question 10 to the left.</strong>
 
 ```{r load-packages, message = FALSE, echo = FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!

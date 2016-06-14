@@ -33,13 +33,7 @@ statistics.
 3.  Calculate the median and interquartile range for `arr_delay`s of flights in the 
 `sfo_feb_flights` data frame, grouped by carrier. Which carrier is the has the hights 
 IQR of arrival delays? 
-<ol>
-<li> American Airlines </li> 
-<li> JetBlue Airways </li> 
-<li> Virgin America </li> 
-<li> Delta and United Airlines </li>
-<li> Frontier Airlines </li>
-</ol>
+<strong>Answer Question 3 to the left.</strong>
 
 
 ```{r sfo-feb-flights-arrival-delays-carrier}

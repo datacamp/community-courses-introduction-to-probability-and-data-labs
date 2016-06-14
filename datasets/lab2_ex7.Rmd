@@ -59,11 +59,7 @@ nycflights %>%
 
 7.  If you were selecting an airport simply based on on time departure percentage, 
 which NYC airport would you choose to fly out of? 
-<ol>
-<li> EWR </li> 
-<li> JFK </li> 
-<li> LGA </li> 
-</ol>
+<strong>Answer Question 7 to the left.</strong>
 
 ```{r on-time-dep-perc-airport}
 # type your code for Question 7 here, and Knit

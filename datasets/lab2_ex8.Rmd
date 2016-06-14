@@ -15,13 +15,7 @@ can be calculated as distance divided by number of hours of travel, and note tha
 `tailnum` and none of the other variables, use the select function at the end of your 
 pipe to select just these two variables with `select(avg_speed, tailnum)`. You can 
 Google this tail number to find out more about the aircraft. 
-<ol>
-<li> N666DN </li> 
-<li> N755US </li> 
-<li> N779JB </li> 
-<li> N947UW </li> 
-<li> N959UW </li> 
-</ol>
+<strong>Answer Question 8 to the left.</strong>
 
 ```{r load-packages, message = FALSE, echo = FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!

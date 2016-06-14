@@ -26,7 +26,7 @@ library(statsr)
 library(dplyr)
 library(ggplot2)
 ```
-ddd
+
 
 ```{r mean-dep-delay-months}
 nycflights %>%
@@ -36,13 +36,7 @@ nycflights %>%
 ```
 
 4.  Which month has the highest average departure delay from an NYC airport? 
-<ol>
-<li> January </li> 
-<li> March </li> 
-<li> July </li> 
-<li> October </li>
-<li> December </li>
-</ol>
+<strong>Answer Question 4 to the left.</strong>
 
 ```{r highest-avg-dep-delay-month}
 # type your code for Question 4 here, and Knit

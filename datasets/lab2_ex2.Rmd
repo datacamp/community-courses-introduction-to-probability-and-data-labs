@@ -9,13 +9,7 @@ output:
 
 2. Make a histogram and calculate appropriate summary statistics for **arrival** 
 delays of `sfo_feb_flights`. Which of the following is false? 
-<ol>
-<li> The distribution is unimodal. </li> 
-<li> The distribution is right skewed. </li> 
-<li> No flight is delayed more than 2 hours. </li> 
-<li> The distribution has several extreme values on the right side. </li>
-<li> More than 50% of flights arrive on time or earlier than scheduled. </li>
-</ol>
+<strong>Answer Question 2 to the left.</strong>
 
 ```{r load-packages, message = FALSE, echo = FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!

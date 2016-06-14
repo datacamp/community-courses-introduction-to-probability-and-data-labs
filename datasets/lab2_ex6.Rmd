@@ -9,13 +9,7 @@ output:
 
 6.  Is the mean and the median a more reliable measure for deciding which month(s) to 
 avoid flying if you really dislike delayed flights, and why? 
-<ol>
-<li> Mean would be more reliable as it gives us the true average. </li> 
-<li> Mean would be more reliable as the distribution of delays is symmetric. </li> 
-<li> Median would be more reliable as the distribution of delays is skewed. </li> 
-<li> Median would be more reliable as the distribution of delays is symmetric. </li>
-<li> Both give us useful information. </li>
-</ol>
+<strong>Answer Question 6 to the left.</strong>
 
 
 We can also visualize the distributions of departure delays across months using 

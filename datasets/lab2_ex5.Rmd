@@ -8,13 +8,7 @@ output:
 ---
 
 5.  Which month has the highest median departure delay from an NYC airport?
-<ol>
-<li> January </li> 
-<li> March </li> 
-<li> July </li> 
-<li> October </li>
-<li> December </li>
-</ol>
+<strong>Answer Question 5 to the left.</strong>
 
 ```{r load-packages, message = FALSE, echo = FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
