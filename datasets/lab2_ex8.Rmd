@@ -1,0 +1,37 @@
+---
+title: "Introduction to data"
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css
+---
+
+8.  Mutate the data frame so that it includes a new variable that contains the 
+average speed, `avg_speed` traveled by the plane for each flight (in mph). What is 
+the tail number of the plane with the fastest `avg_speed`? **Hint:** Average speed 
+can be calculated as distance divided by number of hours of travel, and note that 
+`air_time` is given in minutes. If you just want to show the `avg_speed` and 
+`tailnum` and none of the other variables, use the select function at the end of your 
+pipe to select just these two variables with `select(avg_speed, tailnum)`. You can 
+Google this tail number to find out more about the aircraft. 
+<ol>
+<li> N666DN </li> 
+<li> N755US </li> 
+<li> N779JB </li> 
+<li> N947UW </li> 
+<li> N959UW </li> 
+</ol>
+
+```{r load-packages, message = FALSE, echo = FALSE}
+# Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(statsr)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r fastest-avg-speed-tailnum}
+# type your code for Question 8 here, and Knit
+
+```

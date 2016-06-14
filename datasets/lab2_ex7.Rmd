@@ -1,0 +1,79 @@
+---
+title: "Introduction to data"
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css
+---
+
+### On time departure rate for NYC airports
+
+Suppose you will be flying out of NYC and want to know which of the 
+three major NYC airports has the best on time departure rate of departing flights. 
+Suppose also that for you a flight that is delayed for less than 5 minutes is 
+basically "on time". You consider any flight delayed for 5 minutes of more to be 
+"delayed".
+
+In order to determine which airport has the best on time departure rate, 
+we need to 
+
+- first classify each flight as "on time" or "delayed",
+- then group flights by origin airport,
+- then calculate on time departure rates for each origin airport,
+- and finally arrange the airports in descending order for on time departure
+percentage.
+
+Let's start with classifying each flight as "on time" or "delayed" by
+creating a new variable with the `mutate` function.
+
+```{r load-packages, message = FALSE, echo = FALSE}
+# Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(statsr)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r dep-type}
+nycflights <- nycflights %>%
+  mutate(dep_type = ifelse(dep_delay < 5, "on time", "delayed"))
+```
+
+The first argument in the `mutate` function is the name of the new variable
+we want to create, in this case `dep_type`. Then if `dep_delay < 5` we classify 
+the flight as `"on time"` and `"delayed"` if not, i.e. if the flight is delayed 
+for 5 or more minutes.
+
+Note that we are also overwriting the `nycflights` data frame with the new 
+version of this data frame that includes the new `dep_type` variable.
+
+We can handle all the remaining steps in one code chunk:
+
+```{r}
+nycflights %>%
+  group_by(origin) %>%
+  summarise(ot_dep_rate = sum(dep_type == "on time") / n()) %>%
+  arrange(desc(ot_dep_rate))
+```
+
+7.  If you were selecting an airport simply based on on time departure percentage, 
+which NYC airport would you choose to fly out of? 
+<ol>
+<li> EWR </li> 
+<li> JFK </li> 
+<li> LGA </li> 
+</ol>
+
+```{r on-time-dep-perc-airport}
+# type your code for Question 7 here, and Knit
+
+```
+
+We can also visualize the distribution of on on time departure rate across 
+the three airports using a segmented bar plot.
+
+```{r}
+ggplot(data = nycflights, aes(x = origin, fill = dep_type)) +
+  geom_bar()
+```

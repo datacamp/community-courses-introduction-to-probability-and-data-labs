@@ -1,0 +1,32 @@
+---
+title: "Introduction to data"
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css
+---
+
+9.  Make a scatterplot of `avg_speed` vs. `distance`. Which of the following is true 
+about the relationship between average speed and distance. 
+<ol>
+<li> As distance increases the average speed of flights decreases. </li> 
+<li> The relationship is linear. </li> 
+<li> There is an overall postive association between distance and average speed.</li> 
+<li> There are no outliers. </li> 
+<li> The distribution of distances are uniform over 0 to 5000 miles. </li> 
+</ol>
+
+```{r load-packages, message = FALSE, echo = FALSE}
+# Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(statsr)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r avg-speed-dist-scatter}
+# type your code for Question 9 here, and Knit
+
+```
+
