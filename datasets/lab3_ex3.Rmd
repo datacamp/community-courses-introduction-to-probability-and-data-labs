@@ -30,5 +30,5 @@ ggplot(data = kobe_streak, aes(x = length)) +
 
 3.  Which of the following is false about the distribution of Kobe's streak lengths 
 from the 2009 NBA finals. 
-<strong> Answer Question 1 to the left.</strong>
+<strong> Answer Question 3 to the left.</strong>
 

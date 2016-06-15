@@ -181,5 +181,5 @@ a hot hand.
 4.  If you were to run the simulation of the independent shooter a second time, how 
 would you expect its streak distribution to compare to the distribution from the 
 exercise above? 
-<strong> Answer Question 1 to the left.</strong>
+<strong> Answer Question 4 to the left.</strong>
 
