@@ -7,39 +7,6 @@ output:
     css: lab.css
 ---
 
-Counting streak lengths manually for all 133 shots would get tedious, so we'll
-use the custom function `calc_streak` to calculate them, and store the results
-in a data frame called `kobe_streak` as the `length` variable.
-
-```{r load-packages, message = FALSE, echo = FALSE}
-# Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
-library(statsr)
-library(dplyr)
-library(ggplot2)
-```
-
-
-```{r calc-streak-kobe}
-kobe_streak <- calc_streak(kobe_basket$shot)
-```
-
-We can then take a look at the distribution of these streak lengths.
-
-```{r plot-streak-kobe}
-ggplot(data = kobe_streak, aes(x = length)) +
-  geom_histogram(binwidth = 1)
-```
-
-3.  Which of the following is false about the distribution of Kobe's streak lengths 
-from the 2009 NBA finals. 
-<ol>
-<li> The distribution of Kobe's streaks is unimodal and right skewed. </li>
-<li> The typical length of a streak is 0 since the median of the distribution is at 0. </li>
-<li> The IQR of the distribution is 1. 
-<li> The longest streak of baskets is of length 4. </li>
-<li> The shortest streak is of length 1.</li>
-</ol>
-
 ## Compared to What?
 
 We've shown that Kobe had some long shooting streaks, but are they long enough 
@@ -89,6 +56,14 @@ that sort of data is very easy to simulate in R. In a simulation, you set the
 ground rules of a random process and then the computer uses random numbers to 
 generate an outcome that adheres to those rules. As a simple example, you can
 simulate flipping a fair coin with the following.
+
+```{r load-packages, message = FALSE, echo = FALSE}
+# Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(statsr)
+library(dplyr)
+library(ggplot2)
+```
+
 
 ```{r head-tail}
 coin_outcomes <- c("heads", "tails")
@@ -206,9 +181,5 @@ a hot hand.
 4.  If you were to run the simulation of the independent shooter a second time, how 
 would you expect its streak distribution to compare to the distribution from the 
 exercise above? 
-<ol>
-<li> Exactly the same  </li>
-<li> Somewhat similar </li>
-<li> Totally different </li>
-</ol>
+<strong> Answer Question 1 to the left.</strong>
 

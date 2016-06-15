@@ -20,8 +20,5 @@ occurrence).
 
 2.  Fill in the blank: A streak length of 0 means one \_\_\_ which must occur after a 
 miss that ended the preceeding streak.
-<ol>
-<li> hit </li>
-<li> miss </li>
-</ol>
+<strong> Answer Question 1 to the left.</strong>
 

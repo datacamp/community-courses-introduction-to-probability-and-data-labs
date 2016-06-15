@@ -11,12 +11,7 @@ output:
 5.  How does Kobe Bryant's distribution of streak lengths compare to the distribution 
 of streak lengths for the simulated shooter? Using this comparison, do you have 
 evidence that the hot hand model fits Kobe's shooting patterns?
-<ol>
-<li> The distributions look very similar. Therefore, there doesn't appear to be evidence for Kobe Bryant's hot hand. </li>
-<li> The distributions look very similar. Therefore, there appears to be evidence for Kobe Bryant's hot hand. </li>
-<li> The distributions look very different. Therefore, there doesn't appear to be evidence for Kobe Bryant's hot hand. </li>
-<li> The distributions look very different. Therefore, there appears to be evidence for Kobe Bryant's hot hand. </li>
-</ol>
+<strong> Answer Question 1 to the left.</strong>
 
 ```{r load-packages, message = FALSE, echo = FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!

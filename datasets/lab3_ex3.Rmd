@@ -30,11 +30,5 @@ ggplot(data = kobe_streak, aes(x = length)) +
 
 3.  Which of the following is false about the distribution of Kobe's streak lengths 
 from the 2009 NBA finals. 
-<ol>
-<li> The distribution of Kobe's streaks is unimodal and right skewed. </li>
-<li> The typical length of a streak is 0 since the median of the distribution is at 0. </li>
-<li> The IQR of the distribution is 1. 
-<li> The longest streak of baskets is of length 4. </li>
-<li> The shortest streak is of length 1.</li>
-</ol>
+<strong> Answer Question 1 to the left.</strong>
 

@@ -74,8 +74,5 @@ Within the nine shot attempts, there are six streaks, which are separated by a
 occurrence).
 
 1.  Fill in the blank: A streak length of 1 means one \_\_\_ followed by one miss.
-<ol>
-<li> hit </li>
-<li> miss </li>
-</ol>
+<strong> Answer Question 1 to the left.</strong>
 
