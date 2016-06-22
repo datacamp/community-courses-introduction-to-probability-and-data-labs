@@ -13,7 +13,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q1. How many variables are included in this data set?</strong> 
+<strong>Q1. Create a new data frame that includes flights headed to SFO in February, and save this data frame as sfo_feb_flights. How many flights meet these criteria?</strong> 
 
 *** =instructions
 - 68
@@ -55,7 +55,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q2. What command would you use to extract just the counts of girls born?</strong>  
+<strong>Q2. Make a histogram and calculate appropriate summary statistics for arrival delays of sfo_feb_flights. Which of the following is false?</strong>  
 
 *** =instructions
 - The distribution is unimodal.
@@ -100,7 +100,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q3. Which of the following best describes the number of girls baptised over the years included in this dataset?
+<strong>Q3. Calculate the median and interquartile range for arr_delays of flights in the sfo_feb_flights data frame, grouped by carrier. Which carrier is the has the hights IQR of arrival delays?</strong>
 
 *** =instructions
 - American Airlines
@@ -146,7 +146,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q4. How many variables are included in this data set?</strong> 
+<strong>Q4. Which month has the highest average departure delay from an NYC airport?</strong> 
 
 *** =instructions
 - January
@@ -191,7 +191,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q5. Has the proportion of boys born in the US has decreased over time.
+<strong>Q5. Which month has the highest median departure delay from an NYC airport?</strong>
 
 *** =instructions
 - January
@@ -233,7 +233,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q6. Which of the following statements is true?</strong> 
+<strong>Q6. Is the mean and the median a more reliable measure for deciding which month(s) to avoid flying if you really dislike delayed flights, and why?</strong> 
 
 *** =instructions
 - Mean would be more reliable as it gives us the true average.
@@ -277,7 +277,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q7. Which of the following best describes the trend?</strong>  
+<strong>Q7. If you were selecting an airport simply based on on time departure percentage, which NYC airport would you choose to fly out of?</strong>  
 
 *** =instructions
 - EWR
@@ -320,7 +320,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q8. In what year did we see the most total number of births in the U.S.?</strong> 
+<strong>Q8. What is the tail number of the plane with the fastest `avg_speed`?</strong> 
 
 *** =instructions
 - N666DN
@@ -368,7 +368,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q9 In what year did we see the most total number of births in the U.S.?</strong> 
+<strong>Q9. Make a scatterplot of avg_speed vs. distance. Which of the following is true about the relationship between average speed and distance?</strong> 
 
 *** =instructions
 - As distance increases the average speed of flights decreases.
@@ -416,14 +416,14 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q10. In what year did we see the most total number of births in the U.S.?</strong> 
+<strong>Q10. Determine the on time arrival percentage based on whether the flight departed on time or not. What percent of flights that were "delayed" departing arrive "on time"?</strong> 
 
 *** =instructions
-- Number 1
-- Number 2
-- Number 3
-- Number 4
-- Number 5
+- Number 1 - NEEDS TO BE UPDATED
+- Number 2 - NEEDS TO BE UPDATED
+- Number 3 - NEEDS TO BE UPDATED
+- Number 4 - NEEDS TO BE UPDATED
+- Number 5 - NEEDS TO BE UPDATED
  
 
 *** =hint
