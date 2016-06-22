@@ -55,7 +55,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q2. Make a histogram and calculate appropriate summary statistics for arrival delays of sfo_feb_flights. Which of the following is false?</strong>  
+<strong>Q2. Make a histogram and calculate appropriate summary statistics for arrival delays of `sfo_feb_flights`. Which of the following is false?</strong>  
 
 *** =instructions
 - The distribution is unimodal.
@@ -100,7 +100,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q3. Calculate the median and interquartile range for arr_delays of flights in the sfo_feb_flights data frame, grouped by carrier. Which carrier is the has the hights IQR of arrival delays?</strong>
+<strong>Q3. Calculate the median and interquartile range for `arr_delays` of flights in the `sfo_feb_flights` data frame, grouped by carrier. Which carrier is the has the hights IQR of arrival delays?</strong>
 
 *** =instructions
 - American Airlines
@@ -368,7 +368,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q9. Make a scatterplot of avg_speed vs. distance. Which of the following is true about the relationship between average speed and distance?</strong> 
+<strong>Q9. Make a scatterplot of `avg_speed` vs. `distance`. Which of the following is true about the relationship between average speed and distance?</strong> 
 
 *** =instructions
 - As distance increases the average speed of flights decreases.
