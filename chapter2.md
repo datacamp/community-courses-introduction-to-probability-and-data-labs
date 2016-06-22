@@ -13,7 +13,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q1. Create a new data frame that includes flights headed to SFO in February, and save this data frame as sfo_feb_flights. How many flights meet these criteria?</strong> 
+<strong>Q1. Create a new data frame that includes flights headed to SFO in February, and save this data frame as `sfo_feb_flights`. How many flights meet these criteria?</strong> 
 
 *** =instructions
 - 68
