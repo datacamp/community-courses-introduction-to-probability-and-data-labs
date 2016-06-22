@@ -31,10 +31,10 @@ library(statsr)
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again." 
-msg2 <- "Great work!"
+msg1 <- "Great work!"
+msg2 <- "Try again." 
 
-test_mc(2, feedback_msgs = c(msg1, msg2,))
+test_mc(1, feedback_msgs = c(msg1, msg2))
 ```
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex1.Rprofile
@@ -72,7 +72,7 @@ dim(arbuthnot)
 msg1 <- "Try again." 
 msg2 <- "Great work!"
 
-test_mc(2, feedback_msgs = c(msg1, msg2,))
+test_mc(1, feedback_msgs = c(msg1, msg2))
 ```
 
 *** =attachments
