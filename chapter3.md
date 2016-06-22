@@ -72,7 +72,7 @@ dim(arbuthnot)
 msg1 <- "Try again." 
 msg2 <- "Great work!"
 
-test_mc(1, feedback_msgs = c(msg1, msg2))
+test_mc(2, feedback_msgs = c(msg1, msg2))
 ```
 
 *** =attachments
