@@ -13,7 +13,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q1. How many variables are included in this data set?</strong> 
+<strong>Q1. Fill in the blank: A streak length of 1 means one ___ followed by one miss.</strong> 
 
 *** =instructions
 - hit
@@ -50,7 +50,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q2. What command would you use to extract just the counts of girls born?</strong>  
+<strong>Q2. Fill in the blank: A streak length of 0 means one ___ which must occur after a miss that ended the preceeding streak.</strong>  
 
 *** =instructions
 - hit
@@ -89,7 +89,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q3. Which of the following best describes the number of girls baptised over the years included in this dataset?
+<strong>Q3. Which of the following is false about the distribution of Kobe's streak lengths from the 2009 NBA finals?</strong>
 
 *** =instructions
 - The distribution of Kobe's streaks is unimodal and right skewed.
@@ -133,7 +133,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q4. How many variables are included in this data set?</strong> 
+<strong>Q4. If you were to run the simulation of the independent shooter a second time, how would you expect its streak distribution to compare to the distribution from the exercise above?</strong> 
 
 *** =instructions
 - Exactly the same 
@@ -174,7 +174,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q5. Has the proportion of boys born in the US has decreased over time.
+<strong>Q5. How does Kobe Bryant's distribution of streak lengths compare to the distribution of streak lengths for the simulated shooter? Using this comparison, do you have evidence that the hot hand model fits Kobe's shooting patterns?</strong>
 
 *** =instructions
 - The distributions look very similar. Therefore, there doesn't appear to be evidence for Kobe Bryant's hot hand.
