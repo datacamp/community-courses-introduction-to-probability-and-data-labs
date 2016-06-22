@@ -146,7 +146,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q4. Which month has the highest average departure delay from an NYC airport?</strong> 
+<strong>Q4. Which month has the highest AVERAGE departure delay from an NYC airport?</strong> 
 
 *** =instructions
 - January
@@ -191,7 +191,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q5. Which month has the highest median departure delay from an NYC airport?</strong>
+<strong>Q5. Which month has the highest MEDIAN departure delay from an NYC airport?</strong>
 
 *** =instructions
 - January
