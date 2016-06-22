@@ -13,7 +13,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q1. How many flights meet these criteria?</strong> 
+<strong>Q1. How many flights are in this data frame?</strong> 
 
 *** =instructions
 - 68
@@ -100,7 +100,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q3. Which carrier is the has the hights IQR of arrival delays?</strong>
+<strong>Q3. Which carrier has the highests IQR of arrival delays?</strong>
 
 *** =instructions
 - American Airlines
@@ -368,7 +368,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q9. Make a scatterplot of `avg_speed` vs. `distance`. Which of the following is true about the relationship between average speed and distance?</strong> 
+<strong>Q9. Which of the following is true about the relationship between average speed and distance?</strong> 
 
 *** =instructions
 - As distance increases the average speed of flights decreases.
