@@ -33,13 +33,13 @@ library(statsr)
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again." 
-msg2 <- "Great work!"
+msg1 <- "Great work!"
+msg2 <- "Try again." 
 msg3 <- "Keep trying!"
 msg4 <- "Nope."
 msg5 <- "Not quite."
 
-test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex1.Rprofile
@@ -78,12 +78,12 @@ dim(arbuthnot)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Not quite."
-msg2 <- "Nice job!"
-msg3 <- "Keep trying!"
+msg2 <- "Keep trying!"
+msg3 <- "Nice job!"
 msg4 <- "Nope!"
 msg5 <- "Try again!"
 
-test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
@@ -126,10 +126,10 @@ dim(arbuthnot)
 msg1 <- "Try again."
 msg2 <- "Awesome!"
 msg3 <- "Keep trying!"
-msg4 <- "Try again."
+msg4 <- "Great! That's right."
 msg5 <- "Try again."
 
-test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex3.Rprofile
@@ -169,12 +169,12 @@ library(statsr)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Try again."
-msg2 <- "You got it!"
-msg3 <- "Keep trying!"
+msg2 <- "Keep trying!"
+msg3 <- "You got it!"
 msg4 <- "Try again."
 msg5 <- "Try again."
 
-test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
@@ -213,10 +213,13 @@ dim(present)
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "That's right!"
-msg2 <- "Try again."
+msg1 <- "Try again."
+msg2 <- "Not quite."
+msg3 <- "Keep trying!"
+msg4 <- "Try again."
+msg5 <- "You are correct!"
 
-test_mc(1, feedback_msgs = c(msg1, msg2))
+test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
@@ -256,11 +259,13 @@ ggplot(data = present, aes(x = year, y = boys/total)) + geom_line() + geom_point
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again."
-msg2 <- "Great work!"
+msg1 <- "Great work!"
+msg2 <- "Try again."
 msg3 <- "Keep trying!"
+msg4 <- "Try again."
+msg5 <- "Nope, try again."
 
-test_mc(2, feedback_msgs = c(msg1, msg2, msg3))
+test_mc(1, feedback_msgs = c(msg1, msg2, msg3))
 ```
 
 *** =attachments
@@ -300,10 +305,8 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 msg1 <- "Try again."
 msg2 <- "Keep trying!"
 msg3 <- "Awesome, you did great!"
-msg4 <- "Try again."
-msg5 <- "Try again."
 
-test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(3, feedback_msgs = c(msg1, msg2, msg3))
 ```
 
 *** =attachments
@@ -344,13 +347,13 @@ ggplot(data = present, aes(x = year, y = prop_boy_girl)) + geom_line() + geom_po
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again."
+msg1 <- "Well done!"
 msg2 <- "Try again."
 msg3 <- "Keep trying!"
 msg4 <- "Try again."
-msg5 <- "Awesome!" 
+msg5 <- "Nope, not quite" 
 
-test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
@@ -394,11 +397,11 @@ ggplot(data = present, aes(x = year, y = prop_boy_girl)) + geom_line() + geom_po
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Try again."
-msg3 <- "Keep trying!"
+msg3 <- "Great work!"
 msg4 <- "Try again."
-msg5 <- "Awesome!" 
+msg5 <-  "Keep trying!"
 
-test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
@@ -419,11 +422,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q10. Determine the on time arrival percentage based on whether the flight departed on time or not. What percent of flights that were "delayed" departing arrive "on time"?</strong> 
 
 *** =instructions
-- Number 1 - NEEDS TO BE UPDATED
-- Number 2 - NEEDS TO BE UPDATED
-- Number 3 - NEEDS TO BE UPDATED
-- Number 4 - NEEDS TO BE UPDATED
-- Number 5 - NEEDS TO BE UPDATED
+- Number 1 - 0.24
+- Number 2 - 0.25
+- Number 3 - 0.27
+- Number 4 - 0.29
+- Number 5 - 0.30
  
 
 *** =hint
@@ -442,12 +445,12 @@ ggplot(data = present, aes(x = year, y = prop_boy_girl)) + geom_line() + geom_po
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Try again."
-msg3 <- "Keep trying!"
+msg3 <- "Awesome!"
 msg4 <- "Try again."
-msg5 <- "Awesome!" 
+msg5 <- "Keep trying!"
 
-test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
-success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/fullcourse.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/fullcourse.html) to get the Knitted HTML output.")
+test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/ch2_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch2_key.html) to get the Knitted HTML output.")
 ```
 
 *** =attachments
