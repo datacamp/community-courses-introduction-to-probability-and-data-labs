@@ -197,8 +197,8 @@ dim(present)
 ```{r,eval=FALSE}
 msg1 <- "That's right!"
 msg2 <- "Nope, try again."
-mgs3 <- “Try again!"
-msg4 <- “Not quite, keep working"
+mgs3 <- "Try again!"
+msg4 <- "Not quite, keep working"
 
 test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4))
 
