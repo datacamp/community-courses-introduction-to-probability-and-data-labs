@@ -1,0 +1,24 @@
+---
+title: "Probability"
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css
+---
+
+Again, in Game 1 Kobe had the following sequence of hits and misses from 
+his nine shot attempts in the first quarter:
+
+\[ \textrm{H M | M | H H M | M | M | M} \]
+
+You can verify this by viewing the first 8 rows of the data in the data viewer.
+
+Within the nine shot attempts, there are six streaks, which are separated by a 
+"|" above. Their lengths are one, zero, two, zero, zero, zero (in order of 
+occurrence).
+
+2.  Fill in the blank: A streak length of 0 means one \_\_\_ which must occur after a 
+miss that ended the preceeding streak.
+<strong> Answer Question 2 to the left.</strong>
+

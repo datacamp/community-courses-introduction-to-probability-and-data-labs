@@ -1,0 +1,45 @@
+---
+title: "Introduction to data"
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css
+---
+
+### Departure delays over months
+
+Which month would you expect to have the highest average delay departing 
+from an NYC airport?
+
+Let's think about how we would answer this question:
+
+- First, calculate monthly averages for departure delays. With the new language
+we are learning, we need to
+    + `group_by` months, then
+    + `summarise` mean departure delays.
+- Then, we need to `arrange` these average delays in `desc`ending order
+
+```{r load-packages, message = FALSE, echo = FALSE}
+# Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(statsr)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r mean-dep-delay-months}
+nycflights %>%
+  group_by(month) %>%
+  summarise(mean_dd = mean(dep_delay)) %>%
+  arrange(desc(mean_dd))
+```
+
+4.  Which month has the highest average departure delay from an NYC airport? 
+<strong>Answer Question 4 to the left.</strong>
+
+```{r highest-avg-dep-delay-month}
+# type your code for Question 4 here, and Knit
+
+```
+

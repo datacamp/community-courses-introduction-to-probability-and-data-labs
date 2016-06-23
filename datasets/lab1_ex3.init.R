@@ -5,3 +5,6 @@ file.edit("lab1_ex3.Rmd")
 library(dplyr)
 library(ggplot2)
 library(statsr)
+
+# load data
+load("rdu_flights.RData")

@@ -1,0 +1,25 @@
+---
+title: "Introduction to data"
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css
+---
+
+5.  Which month has the highest median departure delay from an NYC airport?
+<strong>Answer Question 5 to the left.</strong>
+
+```{r load-packages, message = FALSE, echo = FALSE}
+# Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(statsr)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r highest-median-dep-delay-month}
+# type your code for Question 5 here, and Knit
+
+```
+

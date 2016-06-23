@@ -1,0 +1,31 @@
+---
+title: "Probability"
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css
+---
+
+
+5.  How does Kobe Bryant's distribution of streak lengths compare to the distribution 
+of streak lengths for the simulated shooter? Using this comparison, do you have 
+evidence that the hot hand model fits Kobe's shooting patterns?
+<strong> Answer Question 5 to the left.</strong>
+
+```{r load-packages, message = FALSE, echo = FALSE}
+# Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(statsr)
+library(dplyr)
+library(ggplot2)
+```
+
+<div id="exercise">
+**Exercise**: What concepts from the course videos are covered in this lab? What 
+concepts, if any, are not covered in the videos? Have you seen these concepts 
+elsewhere, e.g. textbook, previous labs, or practice problems?
+</div>
+
+<div id="license">
+This is a derivative of an [OpenIntro](https://www.openintro.org/stat/labs.php) lab, and is released under a [Attribution-NonCommercial-ShareAlike 3.0 United States](https://creativecommons.org/licenses/by-nc-sa/3.0/us/) license.
+</div>

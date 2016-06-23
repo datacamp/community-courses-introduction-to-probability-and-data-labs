@@ -1,0 +1,37 @@
+---
+title: "Introduction to data"
+output:
+  html_document: 
+    theme: cerulean 
+    highlight: pygments
+    css: lab.css
+---
+
+6.  Is the mean and the median a more reliable measure for deciding which month(s) to 
+avoid flying if you really dislike delayed flights, and why? 
+<strong>Answer Question 6 to the left.</strong>
+
+
+We can also visualize the distributions of departure delays across months using 
+side-by-side box plots:
+
+```{r load-packages, message = FALSE, echo = FALSE}
+# Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
+library(statsr)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r delay-month-box}
+ggplot(nycflights, aes(x = factor(month), y = dep_delay)) +
+  geom_boxplot()
+```
+
+There is some new syntax here: We want departure delays on the y-axis and the
+months on the x-axis to produce side-by-side box plots. Side-by-side box plots
+require a categorical variable on the x-axis, however in the data frame `month` is 
+stored as a numerical variable (numbers 1 - 12). Therefore we can force R to treat
+this variable as categorical, what R calls a **factor**, variable with 
+`factor(month)`.
+
