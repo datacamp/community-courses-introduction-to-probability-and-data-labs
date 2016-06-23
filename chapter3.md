@@ -112,12 +112,12 @@ dim(arbuthnot)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Try again."
-msg2 <- "Awesome!"
+msg2 <- "Not quite!"
 msg3 <- "Keep trying!"
 msg4 <- "Try again."
-msg5 <- "Try again."
+msg5 <- "Awesome!"
 
-test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex3.Rprofile
@@ -196,13 +196,13 @@ dim(present)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "That's right!"
-msg2 <- "Try again."
-mgs3 <- “Try again."
-msg4 <- “Try again."
+msg2 <- "Nope, try again."
+mgs3 <- “Try again!"
+msg4 <- “Not quite, keep working"
 
 test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4))
 
-success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/fullcourse_3.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/fullcourse_3.html) to get the Knitted HTML output.")
+success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/ch3_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/ch3_key.html) to get the Knitted HTML output.")
 ```
 
 *** =attachments
