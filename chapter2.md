@@ -450,7 +450,7 @@ msg4 <- "Try again."
 msg5 <- "Keep trying!"
 
 test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
-success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/ch2_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/ch2_key.html) to get the Knitted HTML output.")
+success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/ch2_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch2_key.html) to get the Knitted HTML output.")
 ```
 
 *** =attachments
