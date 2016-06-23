@@ -1,6 +1,6 @@
 
-title       : Lab 1 - Intro to probability and data
-description : Questions for Lab 1
+title       : Lab 3 - Probability
+description : Questions for Lab 3
 attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
