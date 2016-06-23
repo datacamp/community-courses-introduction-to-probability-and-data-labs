@@ -37,9 +37,9 @@ msg2 <- "Try again."
 test_mc(1, feedback_msgs = c(msg1, msg2))
 ```
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex1.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex1.init.R
-lab3_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex1.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex1.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex1.init.R
+lab3_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex1.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
@@ -76,9 +76,9 @@ test_mc(2, feedback_msgs = c(msg1, msg2))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex2.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex2.init.R
-lab3_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex2.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex2.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex2.init.R
+lab3_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex2.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
@@ -120,9 +120,9 @@ msg5 <- "Awesome!"
 test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex3.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex3.init.R
-lab3_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex3.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex3.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex3.init.R
+lab3_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex3.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
@@ -161,9 +161,9 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex4.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex4.init.R
-lab3_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex4.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex4.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex4.init.R
+lab3_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex4.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
@@ -201,11 +201,11 @@ msg3 <- "Nope, Try again."
 msg4 <- "Not qute, Try again."
 
 test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4))
-success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/ch3_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch3_key.html) to get the Knitted HTML output.")
+success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch3_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch3_key.html) to get the Knitted HTML output.")
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex5.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex5.init.R
-lab3_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab3_ex5.Rmd
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex5.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex5.init.R
+lab3_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex5.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
