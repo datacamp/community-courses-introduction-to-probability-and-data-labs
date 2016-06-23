@@ -201,7 +201,7 @@ msg3 <- "Nope, Try again."
 msg4 <- "Not qute, Try again."
 
 test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4))
-success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/ch3_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/ch3_key.html) to get the Knitted HTML output.")
+success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/ch3_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch3_key.html) to get the Knitted HTML output.")
 ```
 
 *** =attachments
