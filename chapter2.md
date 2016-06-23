@@ -169,8 +169,8 @@ library(statsr)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Try again."
-msg2 <- "You got it!"
-msg3 <- "Keep trying!"
+msg2 <- "Keep trying!"
+msg3 <- "You got it!"
 msg4 <- "Try again."
 msg5 <- "Try again."
 
