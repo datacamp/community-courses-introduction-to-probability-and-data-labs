@@ -20,6 +20,45 @@ library(dplyr)
 library(ggplot2)
 ```
 
+We can then take a look at the distribution of these streak lengths.
+
+## Simulating the Independent Shooter
+
+Simulating a basketball player who has independent shots uses the same mechanism 
+that we use to simulate a coin flip. To simulate a single shot from an 
+independent shooter with a shooting percentage of 50% we type,
+
+To make a valid comparison between Kobe and our simulated independent shooter, 
+we need to align both their shooting percentage and the number of attempted shots.
+
+```{r calc-streak-kobe}
+kobe_streak <- calc_streak(kobe_basket$shot)
+```
+
+```{r plot-streak-kobe}
+ggplot(data = kobe_streak, aes(x = length)) +
+  geom_histogram(binwidth = 1)
+```
+
+```{r sim-basket}
+shot_outcomes <- c("H", "M")
+sim_basket <- sample(shot_outcomes, size = 1, replace = TRUE)
+```
+
+```{r}
+sim_basket <- sample(shot_outcomes, size = 133, replace = TRUE,
+                     prob = c(0.45, 0.55))
+```
+
+```{r sim-streak-lengths}
+sim_streak <- calc_streak(sim_basket)
+```
+
+```{r plot-sim-streaks}
+ggplot(data = sim_streak, aes(x = length)) +
+  geom_histogram(binwidth = 1)
+```
+
 <div id="exercise">
 **Exercise**: What concepts from the course videos are covered in this lab? What 
 concepts, if any, are not covered in the videos? Have you seen these concepts 
