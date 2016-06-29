@@ -16,6 +16,10 @@ about the relationship between average speed and distance.
 library(statsr)
 library(dplyr)
 library(ggplot2)
+
+nycflights <- nycflights %>%
+  mutate(avg_speed = distance / (air_time/60))
+
 ```
 
 
