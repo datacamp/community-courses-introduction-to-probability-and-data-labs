@@ -13,7 +13,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q1. How many flights are in this data frame?</strong> 
+<strong>Q1. How many flights are in this `sfo_feb_flights`?</strong> 
 
 *** =instructions
 - 68
