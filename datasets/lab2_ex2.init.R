@@ -6,6 +6,10 @@ library(dplyr)
 library(ggplot2)
 library(statsr)
 
-# creating sfo_feb_flights data frame form previous exercise
+# The following code is from exercise 1 to create the rdu_flights data frame
+rdu_flights <- nycflights %>%
+  filter(dest == "RDU")
+
+# The following code is from exercise 1 to create the sfo_feb_flights data frame
 sfo_feb_flights <- nycflights %>%
   filter(dest == "SFO", month == 2)
