@@ -22,8 +22,16 @@ library(ggplot2)
 sfo_feb_flights <- nycflights %>%
   filter(dest == "SFO", month == 2)
 
+# The following code is from exercise 1 to create the rdu_flights data frame
 rdu_flights  <- nycflights %>%
-  filter(dest == "RDU") %>%
+  filter(dest == "RDU") 
+
+# The following code is from exercise 1 to create the a plot with the rdu_flights data frame
+ggplot(data = rdu_flights, aes(x = dep_delay)) +
+  geom_histogram()
+
+# The following code is from exercise 1 to summarize the rdu_flights data frame
+rdu_flights  %>%
   summarise(mean_dd = mean(dep_delay), sd_dd = sd(dep_delay), n = n())
 
 ```
