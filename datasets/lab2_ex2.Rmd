@@ -11,11 +11,17 @@ output:
 delays of `sfo_feb_flights`. Which of the following is false? 
 <strong>Answer Question 2 to the left.</strong>
 
+
 ```{r load-packages, message = FALSE, echo = FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
 library(statsr)
 library(dplyr)
 library(ggplot2)
+
+# The following code is from exercise 1 to create the sfo_feb_flights data frame
+sfo_feb_flights <- nycflights %>%
+  filter(dest == "SFO", month == 2)
+
 ```
 
 
