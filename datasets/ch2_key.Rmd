@@ -101,7 +101,7 @@ some questions we might want to answer with these data:
 destination tend to be. 
 - We might want to evaluate how departure delays vary over months. 
 - Or we might want to determine which of the three major NYC airports has a better 
-on time percentage for departing flights.
+on-time percentage for departing flights.
 
 ### Seven verbs
 
@@ -257,7 +257,7 @@ sfo_feb_flights %>%
   summarize(mean(arr_delay), median(arr_delay), max(arr_delay))
 ```
 
-Another useful functionality is being able to quickly calculate summary 
+Another useful functionality is the ability to quickly calculate summary 
 statistics for various groups in your data frame. For example, we can modify the 
 above command using the `group_by` function to get the same summary stats for 
 each origin airport:
@@ -272,7 +272,7 @@ Here, we first grouped the data by `origin`, and then calculated the summary
 statistics.
 
 3.  Calculate the median and interquartile range for `arr_delay`s of flights in the 
-`sfo_feb_flights` data frame, grouped by carrier. Which carrier is the has the hights 
+`sfo_feb_flights` data frame, grouped by carrier. Which carrier is the has the highest 
 IQR of arrival delays? 
 <ol>
 <li> American Airlines </li> 
