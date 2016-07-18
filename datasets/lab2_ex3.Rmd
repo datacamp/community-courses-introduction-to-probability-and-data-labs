@@ -7,7 +7,7 @@ output:
     css: lab.css
 ---
 
-Another useful functionality is being able to quickly calculate summary 
+Another useful functionality is the ability to quickly calculate summary 
 statistics for various groups in your data frame. For example, we can modify the 
 above command using the `group_by` function to get the same summary stats for 
 each origin airport:
@@ -39,7 +39,7 @@ Here, we first grouped the data by `origin`, and then calculated the summary
 statistics.
 
 3.  Calculate the median and interquartile range for `arr_delay`s of flights in the 
-`sfo_feb_flights` data frame, grouped by carrier. Which carrier is the has the hights 
+`sfo_feb_flights` data frame, grouped by carrier. Which carrier is the has the highest 
 IQR of arrival delays? 
 <strong>Answer Question 3 to the left.</strong>
 
