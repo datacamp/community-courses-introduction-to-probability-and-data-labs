@@ -10,6 +10,13 @@ output:
 5.  Which month has the highest median departure delay from an NYC airport?
 <strong>Answer Question 5 to the left.</strong>
 
+Let's think about how we would answer this question:
+
+- In the previous exercise, the monthly averages for departure delays were calculated. For this exercise, we need to
+    + `group_by` months, then
+    + `summarise` median departure delays.
+- Then, we need to `arrange` these average delays in `desc`ending order
+
 ```{r load-packages, message = FALSE, echo = FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
 library(statsr)
@@ -17,6 +24,13 @@ library(dplyr)
 library(ggplot2)
 ```
 
+```{r mean-dep-delay-months}
+# Here is the code from the previous exercise to find the mean departure delay per month
+nycflights %>%
+  group_by(month) %>%
+  summarise(mean_dd = mean(dep_delay)) %>%
+  arrange(desc(mean_dd))
+```
 
 ```{r highest-median-dep-delay-month}
 # type your code for Question 5 here, and Knit
