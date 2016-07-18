@@ -497,7 +497,7 @@ to also include these package names in your search query. For example, instead
 of googling "scatterplot in R", google "scatterplot in R with ggplot2".
 
 - The following cheatsheets may come in handy throughout the course. Note that some 
-of the code on these cheatsheets may be too advanced for this course, however 
+of the code on these cheatsheets may be too advanced for this course, however the
 majority of it will become useful as you progress through the course material.
     - [Data wrangling cheatsheet](http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
     - [Data visualization cheatsheet](http://www.rstudio.com/wp-content/uploads/2015/12/ggplot2-cheatsheet-2.0.pdf)
