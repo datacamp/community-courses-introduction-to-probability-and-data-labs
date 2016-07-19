@@ -1,5 +1,5 @@
 # open file in editor
-file.edit("lab2_ex2.Rmd")
+file.edit("lab2_ex2.2.Rmd")
 
 # load packages
 library(dplyr)
