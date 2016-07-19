@@ -88,8 +88,8 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex2.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex2.init.R
-lab2_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex2.2.Rmd
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex2.init.R
+lab2_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex2.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
@@ -133,8 +133,8 @@ test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex3.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex3.init.R
-lab2_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex3.Rmd
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex3.init.R
+lab2_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex3.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 rdu_flights.RData: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/rdu_flights.RData 
 
@@ -406,8 +406,8 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex9.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex9.init.R
-lab2_ex9.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab2_ex9.Rmd
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex9.init.R
+lab2_ex9.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex9.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 
@@ -458,3 +458,4 @@ success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/productio
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex10.init.R
 lab2_ex10.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex10.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+
