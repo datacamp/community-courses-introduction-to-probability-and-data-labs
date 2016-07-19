@@ -7,10 +7,6 @@ output:
     css: lab.css
 ---
 
-2. Make a histogram and calculate appropriate summary statistics for **arrival** 
-delays of `sfo_feb_flights`. Which of the following is false? 
-<strong>Answer Question 2 to the left.</strong>
-
 
 ```{r load-packages, message = FALSE, echo = FALSE}
 # Although the packages ggplot2, dplyr, and statsr are loaded, to Knit, you must have the library functions in your .Rmd file. Don't erase this code block!
@@ -35,6 +31,10 @@ rdu_flights  %>%
   summarise(mean_dd = mean(dep_delay), sd_dd = sd(dep_delay), n = n())
 
 ```
+
+2. Make a histogram and calculate appropriate summary statistics for **arrival** 
+delays of `sfo_feb_flights`. Which of the following is false? 
+<strong>Answer Question 2 to the left.</strong>
 
 Note that in the `summarise` function we created a list of two elements. The 
 names of these elements are user defined, like `mean_dd`, `sd_dd`, `n`, and 
