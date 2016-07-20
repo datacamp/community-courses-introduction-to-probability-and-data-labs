@@ -133,7 +133,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
 .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1196/datasets/lab1_ex3.init.R
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.init.R
 lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
