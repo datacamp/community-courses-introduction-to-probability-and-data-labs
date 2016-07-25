@@ -209,4 +209,3 @@ success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/productio
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex5.init.R
 lab3_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex5.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
-1156
