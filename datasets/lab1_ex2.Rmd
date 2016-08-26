@@ -29,6 +29,7 @@ R Markdown is a great solution for this problem. And, you already have worked wi
 library(dplyr)
 library(statsr)
 library(ggplot2)
+data(arbuthnot)
 ```
 
 ### Some Exploration
