@@ -42,10 +42,10 @@ msg5 <- "Not quite."
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.init.R
-lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex1.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex1.init.R
+lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex1.Rmd
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
@@ -87,10 +87,10 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.init.R
-lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex2.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex2.init.R
+lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex2.Rmd
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
@@ -132,10 +132,10 @@ msg5 <- "Try again."
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.init.R
-lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex3.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex3.init.R
+lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex3.Rmd
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
@@ -177,10 +177,10 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.init.R
-lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex4.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex4.init.R
+lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex4.Rmd
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
@@ -216,10 +216,10 @@ test_mc(1, feedback_msgs = c(msg1, msg2))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.init.R
-lab1_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex5.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex5.init.R
+lab1_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex5.Rmd
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
@@ -245,7 +245,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 library(dplyr)
 library(ggplot2)
 library(statsr)
-load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/present_ex5.RData"))
+load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/present_ex5.RData"))
 ggplot(data = present, aes(x = year, y = boys/total)) + geom_line() + geom_point()
 ```
 
@@ -259,10 +259,10 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.init.R
-lab1_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex6.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex6.init.R
+lab1_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex6.Rmd
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
@@ -289,7 +289,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 #library(dplyr)
 #library(ggplot2)
 #library(statsr)
-#load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/present_ex6.RData"))
+#load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/present_ex6.RData"))
 ```
 
 *** =sct
@@ -304,10 +304,10 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.init.R
-lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex7.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex7.init.R
+lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex7.Rmd
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab.css
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
@@ -335,7 +335,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 library(dplyr)
 library(ggplot2)
 library(statsr)
-load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/present_ex7.RData"))
+load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/present_ex7.RData"))
 ggplot(data = present, aes(x = year, y = prop_boy_girl)) + geom_line() + geom_point()
 ```
 
@@ -348,12 +348,12 @@ msg4 <- "Try again."
 msg5 <- "Awesome!" 
 
 test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
-success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch1_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch1_key.html) to get the Knitted HTML output.")
+success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/ch1_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/ch1_key.html) to get the Knitted HTML output.")
 ```
 
 *** =attachments
-.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.Rprofile
-.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.init.R
-lab1_ex8.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.Rmd
-lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
-lab8_wk.RData: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab8_wk.RData
+.Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex8.Rprofile
+.init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex8.init.R
+lab1_ex8.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab1_ex8.Rmd
+lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab.css
+lab8_wk.RData: https://s3.amazonaws.com/assets.datacamp.com/production/course_1653/datasets/lab8_wk.RData
