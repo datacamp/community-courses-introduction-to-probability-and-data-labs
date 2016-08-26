@@ -13,6 +13,7 @@ R has some powerful functions for making graphics. We can create a simple plot o
 library(dplyr)
 library(statsr)
 library(ggplot2)
+data(arbuthnot)
 ```
 
 ```{r plot-girls-vs-year}
