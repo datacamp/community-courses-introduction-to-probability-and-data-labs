@@ -30,6 +30,7 @@ decreased over time. <strong>Answer Question 5 to the left.</strong>
 library(dplyr)
 library(statsr)
 library(ggplot2)
+data(present)
 ```
 
 
