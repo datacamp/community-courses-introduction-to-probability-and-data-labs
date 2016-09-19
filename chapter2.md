@@ -236,7 +236,7 @@ You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q6. Is the mean and the median a more reliable measure for deciding which month(s) to avoid flying if you really dislike delayed flights, and why?</strong> 
+<strong>Q6. Is the mean or the median a more reliable measure for deciding which month(s) to avoid flying if you really dislike delayed flights, and why?</strong> 
 
 *** =instructions
 - Mean would be more reliable as it gives us the true average.
