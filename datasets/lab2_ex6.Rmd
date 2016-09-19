@@ -7,7 +7,7 @@ output:
     css: lab.css
 ---
 
-6.  Is the mean and the median a more reliable measure for deciding which month(s) to 
+6.  Is the mean or the median a more reliable measure for deciding which month(s) to 
 avoid flying if you really dislike delayed flights, and why? 
 <strong>Answer Question 6 to the left.</strong>
 
