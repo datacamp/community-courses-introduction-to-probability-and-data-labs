@@ -422,11 +422,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 <strong>Q10. Determine the on time arrival percentage based on whether the flight departed on time or not. What percent of flights that were "delayed" departing arrive "on time"?</strong> 
 
 *** =instructions
-- Number 1 - 0.24
-- Number 2 - 0.25
-- Number 3 - 0.27
-- Number 4 - 0.29
-- Number 5 - 0.30
+- Number 1 - 0.15
+- Number 2 - 0.17
+- Number 3 - 0.18
+- Number 4 - 0.21
+- Number 5 - 0.22
  
 
 *** =hint
