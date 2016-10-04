@@ -1,6 +1,6 @@
+---
 title       : Lab 3 - Probability
 description : Questions for Lab 3
-attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
@@ -8,11 +8,11 @@ attachments :
 
 ```Type 'go()' and hit Enter to get started!```
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q1. Fill in the blank: A streak length of 1 means one ___ followed by one miss.</strong> 
+<strong>Q1. Fill in the blank: A streak length of 1 means one ___ followed by one miss.</strong>
 
 *** =instructions
 - hit
@@ -31,7 +31,7 @@ library(statsr)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Great work!"
-msg2 <- "Try again." 
+msg2 <- "Try again."
 
 test_mc(1, feedback_msgs = c(msg1, msg2))
 ```
@@ -45,11 +45,11 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 2
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q2. Fill in the blank: A streak length of 0 means one ___ which must occur after a miss that ended the preceeding streak.</strong>  
+<strong>Q2. Fill in the blank: A streak length of 0 means one ___ which must occur after a miss that ended the preceeding streak.</strong>
 
 *** =instructions
 - hit
@@ -68,7 +68,7 @@ dim(arbuthnot)
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again." 
+msg1 <- "Try again."
 msg2 <- "Great work!"
 
 test_mc(2, feedback_msgs = c(msg1, msg2))
@@ -84,7 +84,7 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 3
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
@@ -92,9 +92,9 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 *** =instructions
 - The distribution of Kobe's streaks is unimodal and right skewed.
-- The typical length of a streak is 0 since the median of the distribution is at 0. 
-- The IQR of the distribution is 1. 
-- The longest streak of baskets is of length 4. 
+- The typical length of a streak is 0 since the median of the distribution is at 0.
+- The IQR of the distribution is 1.
+- The longest streak of baskets is of length 4.
 - The shortest streak is of length 1.
 
 *** =hint
@@ -128,17 +128,17 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 4
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q4. If you were to run the simulation of the independent shooter a second time, how would you expect its streak distribution to compare to the distribution from the exercise above?</strong> 
+<strong>Q4. If you were to run the simulation of the independent shooter a second time, how would you expect its streak distribution to compare to the distribution from the exercise above?</strong>
 
 *** =instructions
-- Exactly the same 
-- Somewhat similar 
+- Exactly the same
+- Somewhat similar
 - Totally different
- 
+
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -169,7 +169,7 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 5
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
