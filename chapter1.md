@@ -1,6 +1,5 @@
 title       : Lab 1 - Intro to probability and data
 description : Questions for Lab 1
-attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
@@ -8,15 +7,15 @@ attachments :
 
 ```Type 'go()' and hit Enter to get started!```
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q1. How many variables are included in this data set?</strong> 
+<strong>Q1. How many variables are included in this data set?</strong>
 
 *** =instructions
-- 2 
-- 3 
+- 2
+- 3
 - 4
 - 82
 - 1710
@@ -32,7 +31,7 @@ library(statsr)
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Try again." 
+msg1 <- "Try again."
 msg2 <- "Great work!"
 msg3 <- "Keep trying!"
 msg4 <- "Nope."
@@ -50,11 +49,11 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 2
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q2. What command would you use to extract just the counts of girls born?</strong>  
+<strong>Q2. What command would you use to extract just the counts of girls born?</strong>
 
 *** =instructions
 - `arbuthnot$boys`
@@ -95,7 +94,7 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 3
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
@@ -103,11 +102,11 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 *** =instructions
 - There appears to be no trend in the number of girls baptised from 1629 to 1710.
-- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised. 
-- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases. 
-- The number of girls baptised has decreased over time. 
-- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point. 
- 
+- There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised.
+- There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases.
+- The number of girls baptised has decreased over time.
+- There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point.
+
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -140,19 +139,19 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 4
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q4. How many variables are included in this data set?</strong> 
+<strong>Q4. How many variables are included in this data set?</strong>
 
 *** =instructions
 - 2
 - 3
-- 4 
-- 74 
+- 4
+- 74
 - 2013
- 
+
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -185,7 +184,7 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 5
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
@@ -224,17 +223,17 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 6
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q6. Which of the following statements is true?</strong> 
+<strong>Q6. Which of the following statements is true?</strong>
 
 *** =instructions
 - Every year there are more girls born than boys.
 - Every year there are more boys born than girls.
-- Half of the years there are more boys born, and the other half more girls born. 
- 
+- Half of the years there are more boys born, and the other half more girls born.
+
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -267,18 +266,18 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 7
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q7. Which of the following best describes the trend?</strong>  
+<strong>Q7. Which of the following best describes the trend?</strong>
 
 *** =instructions
 - There appears to be no trend in the boy-to-girl ratio from 1940 to 2013.
 - There is initially an increase in boy-to-girl ratio, which peaks around 1960. After 1960 there is a decrease in the boy-to-girl ratio, but the number begins to increase in the mid 1970s.
 - There is initially a decrease in the boy-to-girl ratio, and then an increase between 1960 and 1970, followed by a decrease.
 - The boy-to-girl ratio has increased over time.
-- There is an initial decrease in the boy-to-girl ratio born but this number appears to level around 1960 and remain constant since then. 
+- There is an initial decrease in the boy-to-girl ratio born but this number appears to level around 1960 and remain constant since then.
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -312,19 +311,19 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 8
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q8. In what year did we see the most total number of births in the U.S.?</strong> 
+<strong>Q8. In what year did we see the most total number of births in the U.S.?</strong>
 
 *** =instructions
 - 1940
-- 1957   
-- 1961        
+- 1957
+- 1961
 - 1991
-- 2007 
- 
+- 2007
+
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -344,7 +343,7 @@ msg1 <- "Try again."
 msg2 <- "Try again."
 msg3 <- "Keep trying!"
 msg4 <- "Try again."
-msg5 <- "Awesome!" 
+msg5 <- "Awesome!"
 
 test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch1_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch1_key.html) to get the Knitted HTML output.")

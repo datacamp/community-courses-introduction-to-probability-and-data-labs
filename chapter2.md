@@ -1,6 +1,5 @@
 title       : Lab 2 - Introduction to data
 description : Questions for Lab 2
-attachments :
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
@@ -8,11 +7,11 @@ attachments :
 
 ```Type 'go()' and hit Enter to get started!```
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q1. How many flights are in this `sfo_feb_flights`?</strong> 
+<strong>Q1. How many flights are in this `sfo_feb_flights`?</strong>
 
 *** =instructions
 - 68
@@ -33,7 +32,7 @@ library(statsr)
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Great work!"
-msg2 <- "Try again." 
+msg2 <- "Try again."
 msg3 <- "Keep trying!"
 msg4 <- "Nope."
 msg5 <- "Not quite."
@@ -50,11 +49,11 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 2
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q2. Which of the following is false?</strong>  
+<strong>Q2. Which of the following is false?</strong>
 
 *** =instructions
 - The distribution is unimodal.
@@ -95,7 +94,7 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 3
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
@@ -107,7 +106,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 - Virgin America
 - Delta and United Airlines
 - Frontier Airlines
- 
+
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -135,17 +134,17 @@ test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex3.init.R
 lab2_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex3.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
-rdu_flights.RData: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/rdu_flights.RData 
+rdu_flights.RData: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/rdu_flights.RData
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q4. Which month has the highest AVERAGE departure delay from an NYC airport?</strong> 
+<strong>Q4. Which month has the highest AVERAGE departure delay from an NYC airport?</strong>
 
 *** =instructions
 - January
@@ -153,7 +152,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 - July
 - October
 - December
- 
+
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -184,9 +183,10 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 
 --- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
@@ -231,18 +231,18 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 6
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q6. Is the mean or the median a more reliable measure for deciding which month(s) to avoid flying if you really dislike delayed flights, and why?</strong> 
+<strong>Q6. Is the mean or the median a more reliable measure for deciding which month(s) to avoid flying if you really dislike delayed flights, and why?</strong>
 
 *** =instructions
 - Mean would be more reliable as it gives us the true average.
 - Mean would be more reliable as the distribution of delays is symmetric.
 - Median would be more reliable as the distribution of delays is skewed.
 - Median would be more reliable as the distribution of delays is symmetric.
-- Both give us useful information. 
+- Both give us useful information.
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -264,7 +264,7 @@ msg3 <- "Keep trying!"
 msg4 <- "Try again."
 msg5 <- "Nope, try again."
 
-test_mc(1, feedback_msgs = c(msg1, msg2, msg3))
+test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
@@ -277,16 +277,16 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 7
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q7. If you were selecting an airport simply based on on time departure percentage, which NYC airport would you choose to fly out of?</strong>  
+<strong>Q7. If you were selecting an airport simply based on on time departure percentage, which NYC airport would you choose to fly out of?</strong>
 
 *** =instructions
 - EWR
 - JFK
-- LGA 
+- LGA
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -318,19 +318,19 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 8
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q8. What is the tail number of the plane with the fastest `avg_speed`?</strong> 
+<strong>Q8. What is the tail number of the plane with the fastest `avg_speed`?</strong>
 
 *** =instructions
 - N666DN
 - N755US
 - N779JB
-- N947UW 
-- N959UW 
- 
+- N947UW
+- N959UW
+
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -350,7 +350,7 @@ msg1 <- "Well done!"
 msg2 <- "Try again."
 msg3 <- "Keep trying!"
 msg4 <- "Try again."
-msg5 <- "Nope, not quite" 
+msg5 <- "Nope, not quite"
 
 test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
@@ -366,19 +366,19 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 9
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q9. Which of the following is true about the relationship between average speed and distance?</strong> 
+<strong>Q9. Which of the following is true about the relationship between average speed and distance?</strong>
 
 *** =instructions
 - As distance increases the average speed of flights decreases.
 - The relationship is linear.
 - There is an overall postive association between distance and average speed.
-- There are no outliers. 
-- The distribution of distances are uniform over 0 to 5000 miles. 
- 
+- There are no outliers.
+- The distribution of distances are uniform over 0 to 5000 miles.
+
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
@@ -414,11 +414,11 @@ lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/dat
 ## Question 10
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
-You can use the RStudio platform just like you would on your home computer. 
+You can use the RStudio platform just like you would on your home computer.
 
 The markdown file contains the instuctions to answer the multiple choice question below.
 
-<strong>Q10. Determine the on time arrival percentage based on whether the flight departed on time or not. What percent of flights that were "delayed" departing arrive "on time"?</strong> 
+<strong>Q10. Determine the on time arrival percentage based on whether the flight departed on time or not. What percent of flights that were "delayed" departing arrive "on time"?</strong>
 
 *** =instructions
 - Number 1 - 0.24
@@ -426,7 +426,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 - Number 3 - 0.27
 - Number 4 - 0.29
 - Number 5 - 0.30
- 
+
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
