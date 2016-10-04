@@ -1,3 +1,4 @@
+---
 title       : Lab 2 - Introduction to data
 description : Questions for Lab 2
 

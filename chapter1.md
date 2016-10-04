@@ -1,3 +1,4 @@
+---
 title       : Lab 1 - Intro to probability and data
 description : Questions for Lab 1
 

@@ -1,3 +1,4 @@
+---
 title       : Lab 3 - Probability
 description : Questions for Lab 3
 
