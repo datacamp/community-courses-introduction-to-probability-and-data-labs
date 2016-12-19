@@ -259,13 +259,13 @@ ggplot(data = present, aes(x = year, y = boys/total)) + geom_line() + geom_point
 
 *** =sct
 ```{r,eval=FALSE}
-msg1 <- "Great work!"
+msg1 <- "Keep trying!"
 msg2 <- "Try again."
-msg3 <- "Keep trying!"
+msg3 <- "Great work!"
 msg4 <- "Try again."
 msg5 <- "Nope, try again."
 
-test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 *** =attachments
