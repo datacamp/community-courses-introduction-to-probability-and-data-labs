@@ -21,13 +21,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-```
-
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Great work!"
@@ -57,14 +50,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
-
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-dim(arbuthnot)
-```
 
 *** =sct
 ```{r,eval=FALSE}
@@ -99,14 +84,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
-
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-dim(arbuthnot)
-```
 
 *** =sct
 ```{r,eval=FALSE}
@@ -143,12 +120,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-```
 
 *** =sct
 ```{r,eval=FALSE}
@@ -183,14 +154,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
-
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-dim(present)
-```
 
 *** =sct
 ```{r,eval=FALSE}

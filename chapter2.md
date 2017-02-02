@@ -23,13 +23,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-```
-
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Great work!"
@@ -65,14 +58,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
-
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-dim(arbuthnot)
-```
 
 *** =sct
 ```{r,eval=FALSE}
@@ -112,14 +97,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-dim(arbuthnot)
-```
-
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Try again."
@@ -154,16 +131,8 @@ The markdown file contains the instuctions to answer the multiple choice questio
 - October
 - December
 
-
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
-
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-```
 
 *** =sct
 ```{r,eval=FALSE}
@@ -172,7 +141,6 @@ msg2 <- "Keep trying!"
 msg3 <- "You got it!"
 msg4 <- "Try again."
 msg5 <- "Try again."
-
 test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
@@ -202,14 +170,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
-
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-dim(present)
-```
 
 *** =sct
 ```{r,eval=FALSE}
@@ -248,15 +208,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/present_ex5.RData"))
-ggplot(data = present, aes(x = year, y = boys/total)) + geom_line() + geom_point()
-```
-
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Keep trying!"
@@ -264,7 +215,6 @@ msg2 <- "Try again."
 msg3 <- "Great work!"
 msg4 <- "Try again."
 msg5 <- "Nope, try again."
-
 test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
@@ -291,14 +241,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
-
-*** =pre_exercise_code
-```{r,eval=FALSE}
-#library(dplyr)
-#library(ggplot2)
-#library(statsr)
-#load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/present_ex6.RData"))
-```
 
 *** =sct
 ```{r,eval=FALSE}
@@ -335,15 +277,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
-
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/present_ex7.RData"))
-ggplot(data = present, aes(x = year, y = prop_boy_girl)) + geom_line() + geom_point()
-```
 
 *** =sct
 ```{r,eval=FALSE}
@@ -384,15 +317,6 @@ The markdown file contains the instuctions to answer the multiple choice questio
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/present_ex7.RData"))
-ggplot(data = present, aes(x = year, y = prop_boy_girl)) + geom_line() + geom_point()
-```
-
 *** =sct
 ```{r,eval=FALSE}
 msg1 <- "Try again."
@@ -428,18 +352,8 @@ The markdown file contains the instuctions to answer the multiple choice questio
 - Number 4 - 0.20
 - Number 5 - 0.21
 
-
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
-
-*** =pre_exercise_code
-```{r,eval=FALSE}
-library(dplyr)
-library(ggplot2)
-library(statsr)
-load(url("http://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/present_ex7.RData"))
-ggplot(data = present, aes(x = year, y = prop_boy_girl)) + geom_line() + geom_point()
-```
 
 *** =sct
 ```{r,eval=FALSE}
@@ -458,4 +372,3 @@ success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/productio
 .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex10.init.R
 lab2_ex10.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex10.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
-
