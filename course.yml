@@ -13,4 +13,4 @@ author_bio       : Mine Çetinkaya-Rundel is an Assistant Professor of the Pract
   resources if you need more background material.
 difficulty_level : 2
 time_needed      : 1 hour
-from             : 'r-base-prod:16'
+from             : 'r-base-prod:27'
