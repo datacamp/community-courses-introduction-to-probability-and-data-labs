@@ -1,16 +1,7 @@
-title            : Introduction to Probability and Data - Labs
-description: This interactive DataCamp course complements the Coursera course <i>Introduction to
-  Probability and Data</i> by Mine Çetinkaya-Rundel. For every lesson
-  given at Coursera, you can follow interactive exercises in the comfort of your browser
-  to master the different topics.
-author_field     : Mine Çetinkaya-Rundel
-author_bio       : Mine Çetinkaya-Rundel is an Assistant Professor of the Practice at the Department
-  of Statistical Science at Duke University, and has a contagious passion for education. Her primary
-  interests are in innovative approaches to statistics pedagogy, and some of her more recent work
-  focuses on developing student-centered learning tools for introductory statistics courses. She is
-  also the co-author of OpenIntro Statistics and a contributing member of the OpenIntro project. If
-  you choose to take this course independently from the Coursera lectures, these are excellent
-  resources if you need more background material.
-difficulty_level : 2
-time_needed      : 1 hour
-from             : 'r-base-prod:27'
+title: Introduction to Probability and Data - Labs
+description: This interactive DataCamp course complements the Coursera course 
+  <i>Introduction to Probability and Data</i> by Mine Çetinkaya-Rundel. For 
+  every lesson given at Coursera, you can follow interactive exercises in the 
+  comfort of your browser to master the different topics.
+programming_language: r
+from: 'r-rstudio-prod:v1.1.0'
