@@ -35,7 +35,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(3, 1)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab3_ex1.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab3_ex1.init.R
@@ -83,7 +83,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(3, 2)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab3_ex2.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab3_ex2.init.R
@@ -134,7 +134,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(3, 3)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab3_ex3.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab3_ex3.init.R
@@ -186,7 +186,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(3, 4)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab3_ex4.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab3_ex4.init.R
@@ -237,7 +237,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(3, 5)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab3_ex5.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab3_ex5.init.R

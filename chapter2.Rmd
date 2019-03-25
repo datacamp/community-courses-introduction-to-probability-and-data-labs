@@ -38,7 +38,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(2, 1)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex1.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex1.init.R
@@ -92,7 +92,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(2, 2)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex2.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex2.init.R
@@ -146,7 +146,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(2, 3)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex3.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex3.init.R
@@ -201,7 +201,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(2, 4)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex4.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex4.init.R
@@ -254,7 +254,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(2, 5)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex5.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex5.init.R
@@ -308,7 +308,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(2, 6)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex6.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex6.init.R
@@ -359,7 +359,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(2, 7)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex7.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex7.init.R
@@ -411,7 +411,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(2, 8)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex8.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex8.init.R
@@ -465,7 +465,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(2, 9)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex9.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex9.init.R
@@ -519,7 +519,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 source('/usr/local/lib/R/site-library/run_rstudio.R')
 
 # Run a new RStudio session and serve it to the user
-run_rstudio()
+run_rstudio(2, 10)
 
 # .Rprofile: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex10.Rprofile
 # .init.R: https://assets.datacamp.com/production/course_1156/datasets/lab2_ex10.init.R
