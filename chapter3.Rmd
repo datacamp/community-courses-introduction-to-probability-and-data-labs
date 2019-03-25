@@ -31,6 +31,12 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 
 `@pre_exercise_code`
 ```{r}
+# Import the helper file contained in the image
+source('/usr/local/lib/R/site-library/run_rstudio.R')
+
+# Run a new RStudio session and serve it to the user
+run_rstudio()
+
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex1.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex1.init.R
 # lab3_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex1.Rmd
@@ -73,6 +79,12 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 
 `@pre_exercise_code`
 ```{r}
+# Import the helper file contained in the image
+source('/usr/local/lib/R/site-library/run_rstudio.R')
+
+# Run a new RStudio session and serve it to the user
+run_rstudio()
+
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex2.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex2.init.R
 # lab3_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex2.Rmd
@@ -118,6 +130,12 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 
 `@pre_exercise_code`
 ```{r}
+# Import the helper file contained in the image
+source('/usr/local/lib/R/site-library/run_rstudio.R')
+
+# Run a new RStudio session and serve it to the user
+run_rstudio()
+
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex3.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex3.init.R
 # lab3_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex3.Rmd
@@ -164,6 +182,12 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 
 `@pre_exercise_code`
 ```{r}
+# Import the helper file contained in the image
+source('/usr/local/lib/R/site-library/run_rstudio.R')
+
+# Run a new RStudio session and serve it to the user
+run_rstudio()
+
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex4.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex4.init.R
 # lab3_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex4.Rmd
@@ -209,6 +233,12 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 
 `@pre_exercise_code`
 ```{r}
+# Import the helper file contained in the image
+source('/usr/local/lib/R/site-library/run_rstudio.R')
+
+# Run a new RStudio session and serve it to the user
+run_rstudio()
+
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex5.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex5.init.R
 # lab3_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab3_ex5.Rmd
