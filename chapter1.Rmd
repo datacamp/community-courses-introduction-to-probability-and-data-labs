@@ -1,9 +1,18 @@
 ---
-title       : Lab 1 - Intro to probability and data
-description : Questions for Lab 1
+title: 'Lab 1 - Intro to probability and data'
+description: 'Questions for Lab 1'
+free_preview: true
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:02d4222b54
-##  Question 1
+## Question 1
+
+```yaml
+type: ExplorableExercise
+key: 02d4222b54
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file:</strong>
 
 ```Type 'go()' and hit Enter to get started!```
@@ -14,17 +23,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q1. How many variables are included in this data set?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - 2
 - 3
 - 4
 - 82
 - 1710
 
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.init.R
@@ -32,7 +41,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Great work!"
@@ -42,8 +51,17 @@ msg5 <- "Not quite."
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
---- type:ExplorableExercise xp:50 skills:1 key:5440b387f2
+---
+
 ## Question 2
+
+```yaml
+type: ExplorableExercise
+key: 5440b387f2
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -52,17 +70,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q2. What command would you use to extract just the counts of girls born?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - `arbuthnot$boys`
 - `arbuthnot$girls`
 - `girls`
 - `arbuthnot[girls]`
 - `$girls`
 
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.init.R
@@ -70,7 +88,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Not quite."
 msg2 <- "Nice job!"
@@ -81,9 +99,17 @@ msg5 <- "Try again!"
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
+
+```yaml
+type: ExplorableExercise
+key: eb6689ed9c
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -92,18 +118,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q3. Which of the following best describes the number of girls baptised over the years included in this dataset?
 
-*** =possible_answers
+`@possible_answers`
 - There appears to be no trend in the number of girls baptised from 1629 to 1710.
 - There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised.
 - There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases.
 - The number of girls baptised has decreased over time.
 - There is an initial increase in the number of girls baptised but this number appears to level around 1680 and not change after that time point.
 
-
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.init.R
@@ -111,7 +136,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Awesome!"
@@ -122,9 +147,17 @@ msg5 <- "Try again."
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
+
+```yaml
+type: ExplorableExercise
+key: e64497e7f4
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -133,18 +166,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q4. How many variables are included in this data set?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - 2
 - 3
 - 4
 - 74
 - 2013
 
-
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.init.R
@@ -152,7 +184,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "You got it!"
@@ -163,10 +195,17 @@ msg5 <- "Try again."
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
-
---- type:ExplorableExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
+
+```yaml
+type: ExplorableExercise
+key: b073c8a4d3
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -175,14 +214,14 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q5. Has the proportion of boys born in the US has decreased over time.
 
-*** =possible_answers
+`@possible_answers`
 - TRUE
 - FALSE
 
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.init.R
@@ -190,7 +229,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "That's right!"
 msg2 <- "Try again."
@@ -198,9 +237,17 @@ msg2 <- "Try again."
 test_mc(1, feedback_msgs = c(msg1, msg2))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
+
+```yaml
+type: ExplorableExercise
+key: 8aee5ae535
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -209,16 +256,15 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q6. Which of the following statements is true?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - Every year there are more girls born than boys.
 - Every year there are more boys born than girls.
 - Half of the years there are more boys born, and the other half more girls born.
 
-
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.init.R
@@ -226,7 +272,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Great work!"
@@ -234,9 +280,17 @@ msg3 <- "Keep trying!"
 test_mc(2, feedback_msgs = c(msg1, msg2, msg3))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
+
+```yaml
+type: ExplorableExercise
+key: 63abfd6950
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -245,17 +299,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q7. Which of the following best describes the trend?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - There appears to be no trend in the boy-to-girl ratio from 1940 to 2013.
 - There is initially an increase in boy-to-girl ratio, which peaks around 1960. After 1960 there is a decrease in the boy-to-girl ratio, but the number begins to increase in the mid 1970s.
 - There is initially a decrease in the boy-to-girl ratio, and then an increase between 1960 and 1970, followed by a decrease.
 - The boy-to-girl ratio has increased over time.
 - There is an initial decrease in the boy-to-girl ratio born but this number appears to level around 1960 and remain constant since then.
 
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.init.R
@@ -263,7 +317,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Keep trying!"
@@ -274,9 +328,17 @@ msg5 <- "Try again."
 test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
+
+```yaml
+type: ExplorableExercise
+key: ca476ff87f
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -285,18 +347,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q8. In what year did we see the most total number of births in the U.S.?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - 1940
 - 1957
 - 1961
 - 1991
 - 2007
 
-
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex8.init.R
@@ -305,7 +366,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab8_wk.RData: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab8_wk.RData
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Try again."
@@ -316,4 +377,3 @@ msg5 <- "Awesome!"
 test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch1_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch1_key.html) to get the Knitted HTML output.")
 ```
-

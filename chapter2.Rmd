@@ -1,9 +1,17 @@
 ---
-title       : Lab 2 - Introduction to data
-description : Questions for Lab 2
+title: 'Lab 2 - Introduction to data'
+description: 'Questions for Lab 2'
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:02d4222b54
-##  Question 1
+## Question 1
+
+```yaml
+type: ExplorableExercise
+key: 02d4222b54
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file:</strong>
 
 ```Type 'go()' and hit Enter to get started!```
@@ -14,17 +22,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q1. How many flights are in this `sfo_feb_flights`?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - 68
 - 1345
 - 2286
 - 3563
 - 32735
 
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex1.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex1.init.R
@@ -32,7 +40,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Great work!"
 msg2 <- "Try again."
@@ -43,9 +51,17 @@ msg5 <- "Not quite."
 test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
+
+```yaml
+type: ExplorableExercise
+key: 5440b387f2
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -54,17 +70,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q2. Which of the following is false?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - The distribution is unimodal.
 - The distribution is right skewed.
 - No flight is delayed more than 2 hours.
 - The distribution has several extreme values on the right side.
 - More than 50% of flights arrive on time or earlier than scheduled.
 
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex2.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex2.init.R
@@ -72,7 +88,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Not quite."
 msg2 <- "Keep trying!"
@@ -83,9 +99,17 @@ msg5 <- "Try again!"
 test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
+
+```yaml
+type: ExplorableExercise
+key: eb6689ed9c
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -94,18 +118,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q3. Which carrier has the highests IQR of arrival delays?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - American Airlines
 - JetBlue Airways
 - Virgin America
 - Delta and United Airlines
 - Frontier Airlines
 
-
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex3.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex3.init.R
@@ -114,7 +137,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # rdu_flights.RData: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/rdu_flights.RData
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Awesome!"
@@ -125,9 +148,17 @@ msg5 <- "Try again."
 test_mc(4, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
+
+```yaml
+type: ExplorableExercise
+key: e64497e7f4
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -136,17 +167,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q4. Which month has the highest AVERAGE departure delay from an NYC airport?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - January
 - March
 - July
 - October
 - December
 
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex4.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex4.init.R
@@ -154,7 +185,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Keep trying!"
@@ -164,9 +195,16 @@ msg5 <- "Try again."
 test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
+
+```yaml
+type: ExplorableExercise
+key: b073c8a4d3
+xp: 50
+skills: 1
+```
 
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -176,17 +214,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q5. Which month has the highest MEDIAN departure delay from an NYC airport?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - January
 - March
 - July
 - October
 - December
 
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex5.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex5.init.R
@@ -194,7 +232,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Not quite."
@@ -205,9 +243,17 @@ msg5 <- "You are correct!"
 test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
+
+```yaml
+type: ExplorableExercise
+key: 8aee5ae535
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -216,17 +262,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q6. Is the mean or the median a more reliable measure for deciding which month(s) to avoid flying if you really dislike delayed flights, and why?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - Mean would be more reliable as it gives us the true average.
 - Mean would be more reliable as the distribution of delays is symmetric.
 - Median would be more reliable as the distribution of delays is skewed.
 - Median would be more reliable as the distribution of delays is symmetric.
 - Both give us useful information.
 
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex6.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex6.init.R
@@ -234,7 +280,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Keep trying!"
 msg2 <- "Try again."
@@ -244,9 +290,17 @@ msg5 <- "Nope, try again."
 test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
+
+```yaml
+type: ExplorableExercise
+key: 63abfd6950
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -255,15 +309,15 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q7. If you were selecting an airport simply based on on time departure percentage, which NYC airport would you choose to fly out of?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - EWR
 - JFK
 - LGA
 
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex7.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex7.init.R
@@ -271,7 +325,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Keep trying!"
@@ -280,9 +334,17 @@ msg3 <- "Awesome, you did great!"
 test_mc(3, feedback_msgs = c(msg1, msg2, msg3))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
+
+```yaml
+type: ExplorableExercise
+key: ca476ff87f
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -291,18 +353,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q8. What is the tail number of the plane with the fastest `avg_speed`?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - N666DN
 - N755US
 - N779JB
 - N947UW
 - N959UW
 
-
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex8.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex8.init.R
@@ -310,7 +371,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Well done!"
 msg2 <- "Try again."
@@ -321,9 +382,17 @@ msg5 <- "Nope, not quite"
 test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
---- type:ExplorableExercise xp:50 skills:1 key:4099fadc1b
 ## Question 9
+
+```yaml
+type: ExplorableExercise
+key: 4099fadc1b
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -332,18 +401,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q9. Which of the following is true about the relationship between average speed and distance?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - As distance increases the average speed of flights decreases.
 - The relationship is linear.
 - There is an overall postive association between distance and average speed.
 - There are no outliers.
 - The distribution of distances are uniform over 0 to 5000 miles.
 
-
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex9.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex9.init.R
@@ -351,7 +419,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Try again."
@@ -362,10 +430,17 @@ msg5 <-  "Keep trying!"
 test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
+---
 
-
---- type:ExplorableExercise xp:50 skills:1 key:caf40f340b
 ## Question 10
+
+```yaml
+type: ExplorableExercise
+key: caf40f340b
+xp: 50
+skills: 1
+```
+
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
 You can use the RStudio platform just like you would on your home computer.
@@ -374,17 +449,17 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q10. Determine the on time arrival percentage based on whether the flight departed on time or not. What percent of flights that were "delayed" departing arrive "on time"?</strong>
 
-*** =possible_answers
+`@possible_answers`
 - Number 1 - 0.15
 - Number 2 - 0.17
 - Number 3 - 0.18
 - Number 4 - 0.20
 - Number 5 - 0.21
 
-*** =hint
+`@hint`
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
-*** =pre_exercise_code
+`@pre_exercise_code`
 ```{r}
 # .Rprofile: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex10.Rprofile
 # .init.R: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex10.init.R
@@ -392,7 +467,7 @@ Check out the instructions in the .Rmd file to answer the multiple choice questi
 # lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 ```
 
-*** =sct
+`@sct`
 ```{r,eval=FALSE}
 msg1 <- "Try again."
 msg2 <- "Try again."
