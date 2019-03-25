@@ -48,7 +48,7 @@ run_rstudio()
 msg1 <- "Great work!"
 msg2 <- "Try again."
 
-test_mc(1, feedback_msgs = c(msg1, msg2))
+ex() %>% check_mc(1, feedback_msgs = c(msg1, msg2))
 ```
 
 ---
@@ -96,7 +96,7 @@ run_rstudio()
 msg1 <- "Try again."
 msg2 <- "Great work!"
 
-test_mc(2, feedback_msgs = c(msg1, msg2))
+ex() %>% check_mc(2, feedback_msgs = c(msg1, msg2))
 ```
 
 ---
@@ -150,7 +150,7 @@ msg3 <- "Keep trying!"
 msg4 <- "Try again."
 msg5 <- "Awesome!"
 
-test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
+ex() %>% check_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 ```
 
 ---
@@ -200,7 +200,7 @@ msg1 <- "Try again."
 msg2 <- "You got it!"
 msg3 <- "Keep trying!"
 
-test_mc(2, feedback_msgs = c(msg1, msg2, msg3))
+ex() %>% check_mc(2, feedback_msgs = c(msg1, msg2, msg3))
 ```
 
 ---
@@ -252,6 +252,6 @@ msg2 <- "Try again."
 msg3 <- "Nope, Try again."
 msg4 <- "Not qute, Try again."
 
-test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4))
+ex() %>% check_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4))
 success_msg("Click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch3_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/ch3_key.html) to get the Knitted HTML output.")
 ```
