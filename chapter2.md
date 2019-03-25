@@ -2,7 +2,7 @@
 title       : Lab 2 - Introduction to data
 description : Questions for Lab 2
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
+--- type:ExplorableExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
 <strong>Follow the directions in the console to open the R Markdown file:</strong>
 
@@ -14,7 +14,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q1. How many flights are in this `sfo_feb_flights`?</strong>
 
-*** =instructions
+*** =possible_answers
 - 68
 - 1345
 - 2286
@@ -39,7 +39,7 @@ test_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 lab2_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex1.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
+--- type:ExplorableExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -49,7 +49,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q2. Which of the following is false?</strong>
 
-*** =instructions
+*** =possible_answers
 - The distribution is unimodal.
 - The distribution is right skewed.
 - No flight is delayed more than 2 hours.
@@ -76,7 +76,7 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 lab2_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex2.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+--- type:ExplorableExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -86,7 +86,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q3. Which carrier has the highests IQR of arrival delays?</strong>
 
-*** =instructions
+*** =possible_answers
 - American Airlines
 - JetBlue Airways
 - Virgin America
@@ -114,7 +114,7 @@ lab2_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 rdu_flights.RData: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/rdu_flights.RData
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
+--- type:ExplorableExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -124,7 +124,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q4. Which month has the highest AVERAGE departure delay from an NYC airport?</strong>
 
-*** =instructions
+*** =possible_answers
 - January
 - March
 - July
@@ -150,7 +150,7 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 lab2_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex4.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
+--- type:ExplorableExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
 
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
@@ -161,7 +161,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q5. Which month has the highest MEDIAN departure delay from an NYC airport?</strong>
 
-*** =instructions
+*** =possible_answers
 - January
 - March
 - July
@@ -188,7 +188,7 @@ test_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 lab2_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex5.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8aee5ae535
+--- type:ExplorableExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -198,7 +198,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q6. Is the mean or the median a more reliable measure for deciding which month(s) to avoid flying if you really dislike delayed flights, and why?</strong>
 
-*** =instructions
+*** =possible_answers
 - Mean would be more reliable as it gives us the true average.
 - Mean would be more reliable as the distribution of delays is symmetric.
 - Median would be more reliable as the distribution of delays is skewed.
@@ -224,7 +224,7 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 lab2_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex6.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:63abfd6950
+--- type:ExplorableExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -234,7 +234,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q7. If you were selecting an airport simply based on on time departure percentage, which NYC airport would you choose to fly out of?</strong>
 
-*** =instructions
+*** =possible_answers
 - EWR
 - JFK
 - LGA
@@ -257,7 +257,7 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3))
 lab2_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab2_ex7.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
+--- type:ExplorableExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -267,7 +267,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q8. What is the tail number of the plane with the fastest `avg_speed`?</strong>
 
-*** =instructions
+*** =possible_answers
 - N666DN
 - N755US
 - N779JB
@@ -296,7 +296,7 @@ lab2_ex8.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:4099fadc1b
+--- type:ExplorableExercise xp:50 skills:1 key:4099fadc1b
 ## Question 9
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -306,7 +306,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q9. Which of the following is true about the relationship between average speed and distance?</strong>
 
-*** =instructions
+*** =possible_answers
 - As distance increases the average speed of flights decreases.
 - The relationship is linear.
 - There is an overall postive association between distance and average speed.
@@ -335,7 +335,7 @@ lab2_ex9.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_115
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:caf40f340b
+--- type:ExplorableExercise xp:50 skills:1 key:caf40f340b
 ## Question 10
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -345,7 +345,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q10. Determine the on time arrival percentage based on whether the flight departed on time or not. What percent of flights that were "delayed" departing arrive "on time"?</strong>
 
-*** =instructions
+*** =possible_answers
 - Number 1 - 0.15
 - Number 2 - 0.17
 - Number 3 - 0.18

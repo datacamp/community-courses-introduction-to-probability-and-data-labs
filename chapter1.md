@@ -2,7 +2,7 @@
 title       : Lab 1 - Intro to probability and data
 description : Questions for Lab 1
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:02d4222b54
+--- type:ExplorableExercise xp:50 skills:1 key:02d4222b54
 ##  Question 1
 <strong>Follow the directions in the console to open the R Markdown file:</strong>
 
@@ -14,12 +14,13 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q1. How many variables are included in this data set?</strong>
 
-*** =instructions
+*** =possible_answers
 - 2
 - 3
 - 4
 - 82
 - 1710
+
 *** =hint
 Check out the instructions in the .Rmd file to answer the multiple choice question.
 
@@ -38,7 +39,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 lab1_ex1.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex1.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:5440b387f2
+--- type:ExplorableExercise xp:50 skills:1 key:5440b387f2
 ## Question 2
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -48,7 +49,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q2. What command would you use to extract just the counts of girls born?</strong>
 
-*** =instructions
+*** =possible_answers
 - `arbuthnot$boys`
 - `arbuthnot$girls`
 - `girls`
@@ -75,7 +76,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 lab1_ex2.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex2.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:eb6689ed9c
+--- type:ExplorableExercise xp:50 skills:1 key:eb6689ed9c
 ## Question 3
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -85,7 +86,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q3. Which of the following best describes the number of girls baptised over the years included in this dataset?
 
-*** =instructions
+*** =possible_answers
 - There appears to be no trend in the number of girls baptised from 1629 to 1710.
 - There is initially an increase in the number of girls baptised, which peaks around 1640. After 1640 there is a decrease in the number of girls baptised, but the number begins to increase again in 1660. Overall the trend is an increase in the number of girls baptised.
 - There is initially an increase in the number of girls baptised. This number peaks around 1640 and then after 1640 the number of girls baptised decreases.
@@ -112,7 +113,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 lab1_ex3.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex3.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:e64497e7f4
+--- type:ExplorableExercise xp:50 skills:1 key:e64497e7f4
 ## Question 4
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -122,7 +123,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q4. How many variables are included in this data set?</strong>
 
-*** =instructions
+*** =possible_answers
 - 2
 - 3
 - 4
@@ -150,7 +151,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 lab1_ex4.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex4.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:b073c8a4d3
+--- type:ExplorableExercise xp:50 skills:1 key:b073c8a4d3
 ## Question 5
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -160,7 +161,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q5. Has the proportion of boys born in the US has decreased over time.
 
-*** =instructions
+*** =possible_answers
 - TRUE
 - FALSE
 
@@ -181,7 +182,7 @@ test_mc(1, feedback_msgs = c(msg1, msg2))
 lab1_ex5.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex5.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:8aee5ae535
+--- type:ExplorableExercise xp:50 skills:1 key:8aee5ae535
 ## Question 6
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -191,7 +192,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q6. Which of the following statements is true?</strong>
 
-*** =instructions
+*** =possible_answers
 - Every year there are more girls born than boys.
 - Every year there are more boys born than girls.
 - Half of the years there are more boys born, and the other half more girls born.
@@ -214,7 +215,7 @@ test_mc(2, feedback_msgs = c(msg1, msg2, msg3))
 lab1_ex6.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex6.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:63abfd6950
+--- type:ExplorableExercise xp:50 skills:1 key:63abfd6950
 ## Question 7
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -224,7 +225,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q7. Which of the following best describes the trend?</strong>
 
-*** =instructions
+*** =possible_answers
 - There appears to be no trend in the boy-to-girl ratio from 1940 to 2013.
 - There is initially an increase in boy-to-girl ratio, which peaks around 1960. After 1960 there is a decrease in the boy-to-girl ratio, but the number begins to increase in the mid 1970s.
 - There is initially a decrease in the boy-to-girl ratio, and then an increase between 1960 and 1970, followed by a decrease.
@@ -251,7 +252,7 @@ test_mc(3, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
 lab1_ex7.Rmd: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab1_ex7.Rmd
 lab.css: https://s3.amazonaws.com/assets.datacamp.com/production/course_1156/datasets/lab.css
 
---- type:RStudioMultipleChoiceExercise xp:50 skills:1 key:ca476ff87f
+--- type:ExplorableExercise xp:50 skills:1 key:ca476ff87f
 ## Question 8
 <strong>Follow the directions in the console to open the R Markdown file.</strong>
 
@@ -261,7 +262,7 @@ The markdown file contains the instuctions to answer the multiple choice questio
 
 <strong>Q8. In what year did we see the most total number of births in the U.S.?</strong>
 
-*** =instructions
+*** =possible_answers
 - 1940
 - 1957
 - 1961
