@@ -1,7 +1,6 @@
 ---
 title: 'Lab 1 - Intro to probability and data'
 description: 'Questions for Lab 1'
-free_preview: true
 ---
 
 ## Question 1
@@ -423,5 +422,5 @@ msg4 <- "Try again."
 msg5 <- "Awesome!"
 
 ex() %>% check_mc(5, feedback_msgs = c(msg1, msg2, msg3, msg4, msg5))
-success_msg("Click [here](https://assets.datacamp.com/production/course_1156/datasets/ch1_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://assets.datacamp.com/production/course_1156/datasets/ch1_key.html) to get the Knitted HTML output.")
+success_msg("Click [here](https://assets.datacamp.com/production/repositories/302/datasets/720e84184f8aee15916dd20a19398373827d4b04/ch1_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://assets.datacamp.com/production/repositories/302/datasets/9ecc2629166b0b8a841f15a83710ddff282baecc/ch1_key.html) to get the Knitted HTML output.")
 ```

@@ -253,5 +253,5 @@ msg3 <- "Nope, Try again."
 msg4 <- "Not qute, Try again."
 
 ex() %>% check_mc(1, feedback_msgs = c(msg1, msg2, msg3, msg4))
-success_msg("Click [here](https://assets.datacamp.com/production/course_1156/datasets/ch3_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://assets.datacamp.com/production/course_1156/datasets/ch3_key.html) to get the Knitted HTML output.")
+success_msg("Click [here](https://assets.datacamp.com/production/repositories/302/datasets/10379ce0508b5f53c01f73b6afaf7a7623459bf2/ch3_key.Rmd) to get a complete Rmarkdown file of the exercises in this Lab and click [here](https://assets.datacamp.com/production/repositories/302/datasets/c7ad825dd2191d71abef274ce662c7c9dd3e33b6/ch3_key.html) to get the Knitted HTML output.")
 ```
